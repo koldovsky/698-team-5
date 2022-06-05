@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="424px" height="304px" viewBox="0 0 424 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>sushi</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sushi" fill-rule="nonzero">
+            <path d="M168,72 L296,72 C322.51,72 344,93.49 344,120 L344,128 C344,154.51 322.51,176 296,176 L168,176 C141.49,176 120,154.51 120,128 L120,120 C120,93.49 141.49,72 168,72 Z" id="Path" fill="#FFFFFF"></path>
+            <path d="M360,80 L320,104 L168,104 C141.49,104 120,82.51 120,56 L120,48 C120,21.49 141.49,0 168,0 L320,0 L360,24 L360,80 Z" id="Path" fill="#FF775E"></path>
+            <g id="Group" transform="translate(160.000000, 112.000000)" fill="#6F7490">
+                <polygon id="Path" points="0 16 16 16 16 32 0 32"></polygon>
+                <polygon id="Path" points="58 21 74 21 74 37 58 37"></polygon>
+                <polygon id="Path" points="110 0 126 0 126 16 110 16"></polygon>
+                <polygon id="Path" points="149 32 165 32 165 48 149 48"></polygon>
+            </g>
+            <path d="M168,0 C141.49,0 120,21.49 120,48 L120,56 C120,82.51 141.49,104 168,104 L312,104 L312,0 L168,0 Z" id="Path" fill="#FF775E"></path>
+            <polygon id="Path" fill="#ED6349" points="360 24 424 8 400 52.664 424 96 360 80"></polygon>
+            <g id="Group" transform="translate(168.000000, 0.000000)" fill="#ED6349">
+                <polygon id="Path" points="0 0 48 0 48 104 0 104"></polygon>
+                <polygon id="Path" points="96 0 144 0 144 104 96 104"></polygon>
+            </g>
+            <path d="M48,200 L176,200 C202.51,200 224,221.49 224,248 L224,256 C224,282.51 202.51,304 176,304 L48,304 C21.49,304 0,282.51 0,256 L0,248 C0,221.49 21.49,200 48,200 Z" id="Path" fill="#FFFFFF"></path>
+            <path d="M48,136 L176,136 C202.51,136 224,157.49 224,184 L224,192 C224,218.51 202.51,240 176,240 L48,240 C21.49,240 0,218.51 0,192 L0,184 C0,157.49 21.49,136 48,136 Z" id="Path" fill="#FFE099"></path>
+            <g id="Group" transform="translate(38.000000, 247.000000)" fill="#3DC491">
+                <polygon id="Path" points="0 25 16 25 16 41 0 41"></polygon>
+                <polygon id="Path" points="147 0 163 0 163 16 147 16"></polygon>
+            </g>
+            <polygon id="Path" fill="#3DC491" points="80 136 144 136 144 304 80 304"></polygon>
+            <g id="Group" transform="translate(24.000000, 160.000000)" fill="#F2CE7B">
+                <path d="M32,56 L28,56 C12.536,56 0,43.464 0,28 C0,12.536 12.536,0 28,0 L32,0 L32,16 L28,16 C21.373,16 16,21.373 16,28 C16,34.627 21.373,40 28,40 L32,40 L32,56 Z" id="Path"></path>
+                <path d="M148,56 L144,56 L144,40 L148,40 C154.627,40 160,34.627 160,28 C160,21.373 154.627,16 148,16 L148,16 L144,16 L144,0 L148,0 C163.464,0 176,12.536 176,28 C176,43.464 163.464,56 148,56 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>
