@@ -1,17 +1,41 @@
 /* 2 блок */
+.banner__fluid {
+    display: flexbox;
+    background-image: url(../img/bg_fruits.webp);
+    background-size: cover;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
 .banner__fluid-title {
     color: rgb(75,79,105);
-    font-family: Barlow, sans-serif;
     font-weight: 1000;
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 35px;
 }
-.banner__fluid-text {
 
+.banner__fluid-text {
+    color: #6f7490;
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 70px;
 }
 
 .banner__fluid-button {
-
+    color: white;
+    background-color: rgb(32, 218, 103);
+    padding: 16px 40px;
+    border-radius: 5px;
+    text-decoration-line: none;
 }
-
+.banner__fluid-button:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
+}
 /* 3 блок */
 
 /* 4 блок */
