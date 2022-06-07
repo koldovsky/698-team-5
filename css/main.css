@@ -54,9 +54,6 @@
 .icon__list{
     color: #6f7490;
 }
-.icon__list-item {
-    
-}
 .text__mobille-app {
     color: #6f7490;
 }
@@ -70,7 +67,7 @@
 .button__menu:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
-
+}
 /* 4 блок Olesia Holod[2/2]*/
 
 /* 5 блок MarianaVentsel[1/1]*/
