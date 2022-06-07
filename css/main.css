@@ -38,6 +38,38 @@
 }
 
 /* 3 блок Olesia Holod[1/2]*/
+.order__food {
+    color:rgb(41,138,101);
+    font-weight: bold;
+}
+.divider__component {
+    background-color:rgb(41,138,101);
+    height: 3px;
+    width: 8%;
+}
+.text__about__order {
+    color: rgb(75,79,105);
+    font-weight: bold;
+}
+.icon__list{
+    color: #6f7490;
+}
+.icon__list-item {
+    
+}
+.text__mobille-app {
+    color: #6f7490;
+}
+.button__menu {
+    color: white;
+    background-color: rgb(32, 170, 110);
+    padding: 16px 40px;
+    border-radius: 5px;
+    text-decoration-line: none; 
+}
+.button__menu:hover {
+    background-color: rgb(255, 0, 0);
+    transition: 0.5s;
 
 /* 4 блок Olesia Holod[2/2]*/
 
