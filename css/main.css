@@ -57,6 +57,9 @@
 .text__mobille-app {
     color: #6f7490;
 }
+.icon__list-item {
+    width: 35px;
+}
 .button-menu {
     color: white;
     background-color: rgb(32, 170, 110);
@@ -68,6 +71,9 @@
 .button-menu:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
+}
+.picture {
+    width: 600px;
 }
 /* 4 блок Olesia Holod[2/2]*/
 
