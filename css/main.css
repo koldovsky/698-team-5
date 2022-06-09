@@ -57,14 +57,15 @@
 .text__mobille-app {
     color: #6f7490;
 }
-.button__menu {
+.button-menu {
     color: white;
     background-color: rgb(32, 170, 110);
     padding: 16px 40px;
     border-radius: 5px;
     text-decoration-line: none; 
+    display: inline-flex;
 }
-.button__menu:hover {
+.button-menu:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
 }
