@@ -117,4 +117,19 @@ font-weight: 700;
 
 /* 10 блок Таня Стащак[1/2]*/
 
+@media (min-width:640px) {
+    .qquestion_list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+    }
+}
+@media (min-width: 810px) {
+    .question_list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
 /* 11 блок Таня Стащак[2/2]*/
