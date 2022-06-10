@@ -94,12 +94,14 @@
     width: 4%;
     height: 3px;
     background-color: rgb(41, 138, 101);
+    border-color: rgb(41, 138, 101);
 }
 .carrousel__name-separator {
     display: block;
     width: 10%;
     height: 3px;
     background-color: rgb(111, 116, 144);
+    border-color: rgb(111, 116, 144);
 }
 .carrousel__categories-choose-cuisine {
     font-family:'Roboto', sans-serif;
@@ -147,12 +149,14 @@
     width: 4%;
     height: 3px;
     background-color: rgb(41, 138, 101);
+    border-color: rgb(41, 138, 101);
 }
 .benefits__comment-separator {
     display: block;
     width: 10%;
     height: 3px;
     background-color: rgb(111, 116, 144);
+    border-color: rgb(111, 116, 144);
 }
 .delivery__comfort {
     font-family:'Roboto', sans-serif;
