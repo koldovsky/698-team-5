@@ -14,9 +14,17 @@
 .banner__fluid-title {
     color: rgb(75,79,105);
     font-weight: 1000;
-    font-size: 70px;
+    font-size: 80px;
     padding-bottom: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
+
+@media (max-width: 500px) {
+    .banner__fluid-title {
+        font-size: 60px;
+        } 
+    }
 
 .banner__fluid-text {
     color: #6f7490;
@@ -57,16 +65,23 @@
 .text__mobille-app {
     color: #6f7490;
 }
-.button__menu {
+.icon__list-item {
+    width: 35px;
+}
+.button-menu {
     color: white;
     background-color: rgb(32, 170, 110);
     padding: 16px 40px;
     border-radius: 5px;
     text-decoration-line: none; 
+    display: inline-flex;
 }
-.button__menu:hover {
+.button-menu:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
+}
+.picture {
+    width: 600px;
 }
 /* 4 блок Olesia Holod[2/2]*/
 
@@ -78,34 +93,44 @@
 
 /* 8 блок Тарас Харандзюк[2/2]*/
 .carrousel__reviews {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+    margin: 80px;
+}
+
+@media (max-width: 500px) {
+.carrousel__reviews {
+    grid-template-columns: 1fr;
+    } 
 }
 
 .carrousel__reviews-content {
     background-color: white;
     text-align: center;
-    flex: 2;
+    box-shadow: 0px 0px 6px -3px grey;
+    border-radius: 5px;
+    padding: 50px;
 }
 
 .carrousel__reviews-content-photo {
-    width: 64px;
-    height: 64px;
-    border-radius: 50px;
+    width: 128px;
+    height: 128px;
+    border-radius: 70px;
+    object-fit: cover;
+   /* object-position: 85% 30%; */
 }
 .carrousel__reviews-content-name {
 color: #4b4f69;
 padding-top: 20px;
+font-size: 25px;
 }
 
 .carrousel_reviews-content-comment {
 color: #6f7490;
 font-weight: 500;
 padding: 30px;
+font-size: 18px;
 }
 
 .carrousel-reviews-content-date {
