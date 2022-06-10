@@ -143,10 +143,12 @@ font-weight: 700;
 /* 10 блок Таня Стащак[1/2]*/
 
 @media (min-width:640px) {
-    .qquestion_list {
+    .question_list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
+        padding: 50px 200px 50px 200px;
+
     }
 }
 @media (min-width: 810px) {
