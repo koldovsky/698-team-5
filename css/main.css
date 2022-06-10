@@ -91,6 +91,7 @@
 }
 .carrousel__title-separator {
     display: block;
+    margin: auto;
     width: 4%;
     height: 3px;
     background-color: rgb(41, 138, 101);
@@ -98,6 +99,7 @@
 }
 .carrousel__name-separator {
     display: block;
+    margin: auto;
     width: 10%;
     height: 3px;
     background-color: rgb(111, 116, 144);
@@ -124,8 +126,9 @@
     display: block;
     background-color: var(--background-color);
     width: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .carrousel__categories-item {
     background-color: white;
@@ -146,6 +149,7 @@
 }
 .deliveri__title-separator {
     display: block;
+    margin: auto;
     width: 4%;
     height: 3px;
     background-color: rgb(41, 138, 101);
@@ -153,6 +157,7 @@
 }
 .benefits__comment-separator {
     display: block;
+    margin: auto;
     width: 10%;
     height: 3px;
     background-color: rgb(111, 116, 144);
