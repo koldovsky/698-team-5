@@ -216,22 +216,22 @@
    /* object-position: 85% 30%; */
 }
 .carrousel__reviews-content-name {
-color: #4b4f69;
-padding-top: 20px;
-font-size: 25px;
+    color: #4b4f69;
+    padding-top: 20px;
+    font-size: 25px;
 }
 
 .carrousel_reviews-content-comment {
-color: #6f7490;
-font-weight: 500;
-padding: 30px;
-font-size: 18px;
+    color: #6f7490;
+    font-weight: 500;
+    padding: 30px;
+    font-size: 18px;
 }
 
 .carrousel-reviews-content-date {
-color: #3DC491;
-font-weight: 700;
-align-items: end;
+    color: #3DC491;
+    font-weight: 700;
+    align-items: end;
 }
 
 /* 9 блок Roman Sosnovskyi[1/1]*/
