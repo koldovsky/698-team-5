@@ -83,13 +83,59 @@
 .picture {
     width: 600px;
 }
-/* 4 блок Olesia Holod[2/2]*/
+/* 4 блок Oleksandr Silaiev[1/2]*/
+.carrousel__categories-title {
+    font-size: 38px;
+    text-align: center;
+    color: rgb(41, 138, 101);
+}
+.carrousel__title-separator {
+    display: block;
+    width: 4%;
+    height: 3px;
+    background-color: rgb(41, 138, 101);
+}
+.carrousel__name-separator {
+    display: block;
+    width: 10%;
+    height: 3px;
+    background-color: rgb(111, 116, 144);
+}
+.carrousel__categories-choose-cuisine {
+    font-family:'Roboto', sans-serif;
+    font-size: 19px;
+    text-align: center;
+    color: rgb(111, 116, 144);
+}
+.carrousel__categories-name {
+    font-size: 22px;
+    text-align: center;
+    color: rgb(61, 196, 145);
+}
+.carrousel__categories-comment {
+    font-family:'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(111, 116, 144);
+}
+.carrousel__categories-vegeterian, .carrousel__categories-sushi, .carrousel__categories-pizza, .carrousel__categories-bakery, .carrousel__categories-fast-food {
+    display: block;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carrousel__categories-item {
+    background-color: white;
+    margin: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 /* 5 блок MarianaVentsel[1/1]*/
 
 /* 6 блок RomanSmal[1/1]*/
 
-/* 7 блок Oleksandr Silaiev[1/1]*/
+/* 7 блок Oleksandr Silaiev[2/2]*/
 .deliveri__title {
     font-size: 38px;
     text-align: center;
@@ -123,6 +169,19 @@
     font-size: 17px;
     text-align: center;
     color: rgb(111, 116, 144);
+}
+.delivery__benefits-item {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.benefits__item-check, .benefits__item-location, .benefits__item-alltime {
+    background-color: white;
+    display: block;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* 8 блок Тарас Харандзюк[2/2]*/
