@@ -120,6 +120,7 @@
 }
 .carrousel__categories-vegeterian, .carrousel__categories-sushi, .carrousel__categories-pizza, .carrousel__categories-bakery, .carrousel__categories-fast-food {
     display: block;
+    background-color: var(--background-color);
     width: 40px;
     margin-left: auto;
     margin-right: auto;
