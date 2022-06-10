@@ -141,14 +141,18 @@ font-weight: 700;
 /* 9 блок Roman Sosnovskyi[1/1]*/
 
 /* 10 блок Таня Стащак[1/2]*/
-
+.faq {
+    text-align: center;
+}
+.question_answer {
+    padding: 10px;
+}
 @media (min-width:640px) {
     .question_list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
-        padding: 50px 200px 50px 200px;
-
+        padding: 30px 200px 30px 200px;
     }
 }
 @media (min-width: 810px) {
@@ -156,6 +160,7 @@ font-weight: 700;
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
 
 
 
