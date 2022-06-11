@@ -255,24 +255,49 @@
 
 /* 10 блок Таня Стащак[1/2]*/
 .faq {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq_questions {
+    color:rgb(41,138,101);
+    font-size: 50px;
+    font-weight: 800;
+}
+.small_green_line {
+    width: 50px;
+    height: 4px;
+    background-color: rgb(41,138,101);
+    align-self: center;
+    margin-top: 20px;
+}
+.faq_content {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #6f7490;
+    font-weight: 700;
 }
 .question_answer {
-    padding: 10px;
-    line-height: 1.5rem;
+    margin: 10px;
+    line-height: 28px;
 }
 .question {
-    padding-bottom: 15px;
+    margin-bottom: 15px;
     color: #3DC491;
-    font-size: 1.5rem;
+    font-size: 25px;
     font-weight: 600;
+}
+.answer {
+    color: #6f7490;
+    font-weight: 400;
+    font-size: 18px;
 }
 @media (min-width:640px) {
     .question_list {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
-        padding: 30px 200px 30px 200px;
+        margin: 30px 200px 30px 200px;
     }
 }
 @media (min-width: 810px) {
@@ -280,8 +305,33 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
-
-
-
 /* 11 блок Таня Стащак[2/2]*/
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+.contacts_content {
+    color:rgb(41,138,101);
+    font-size: 50px;
+    font-weight: 800;
+}
+.small_green_line_seft_side {
+    width: 50px;
+    height: 4px;
+    background-color: rgb(41,138,101);
+    align-self:auto;
+    margin-top: 20px;
+}
+.contacts_content_explanation {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #6f7490;
+    font-weight: 700;
+}
+@media (min-width:640px) {
+    .support_info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        margin: 30px 200px 30px 200px;
+    }
