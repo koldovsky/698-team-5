@@ -146,6 +146,13 @@ font-weight: 700;
 }
 .question_answer {
     padding: 10px;
+    line-height: 1.5rem;
+}
+.question {
+    padding-bottom: 15px;
+    color: #3DC491;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 @media (min-width:640px) {
     .question_list {
