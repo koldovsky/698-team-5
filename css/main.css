@@ -14,15 +14,15 @@
 .banner__fluid-title {
     color: rgb(75,79,105);
     font-weight: 1000;
-    font-size: 80px;
+    font-size: 60px;
     padding-bottom: 35px;
     padding-left: 80px;
     padding-right: 80px;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 500px) {
     .banner__fluid-title {
-        font-size: 60px;
+        font-size: 80px;
         } 
     }
 
@@ -204,14 +204,14 @@
 /* 8 блок Тарас Харандзюк[2/2]*/
 .carrousel__reviews {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 28px;
     margin: 80px;
 }
 
-@media (max-width: 764px) {
+@media (min-width: 764px) {
 .carrousel__reviews {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     } 
 }
 
