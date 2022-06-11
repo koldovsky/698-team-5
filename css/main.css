@@ -209,7 +209,7 @@
     margin: 80px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 764px) {
 .carrousel__reviews {
     grid-template-columns: 1fr;
     } 
