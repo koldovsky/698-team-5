@@ -306,9 +306,10 @@
     }
 }
 /* 11 блок Таня Стащак[2/2]*/
-.contacts {
+.contacts, .address {
     display: flex;
     flex-direction: column;
+    line-height: 28px;
 }
 .contacts_content {
     color:rgb(41,138,101);
@@ -328,10 +329,29 @@
     color: #6f7490;
     font-weight: 700;
 }
+.address a {
+    text-decoration: none;
+    color:#6f7490;
+    font-size: 18px;
+    font-weight: 700;
+}
+address a.phone {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 800px;
+    color: #f14952;
+}
+.support_info img {
+    width: 70%;
+    height: auto;
+}
 @media (min-width:640px) {
     .support_info {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 5px;
         margin: 30px 200px 30px 200px;
+        justify-items: center;
     }
+}
