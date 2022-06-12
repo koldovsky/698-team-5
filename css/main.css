@@ -12,7 +12,7 @@
 }
 
 .banner__fluid-title {
-    color: rgb(75,79,105);
+    color: rgb(75, 79, 105);
     font-weight: 1000;
     font-size: 60px;
     padding-bottom: 35px;
@@ -23,8 +23,8 @@
 @media (min-width: 500px) {
     .banner__fluid-title {
         font-size: 80px;
-        } 
     }
+}
 
 .banner__fluid-text {
     color: #6f7490;
@@ -40,6 +40,7 @@
     border-radius: 5px;
     text-decoration-line: none;
 }
+
 .banner__fluid-button:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
@@ -47,48 +48,58 @@
 
 /* 3 блок Olesia Holod[1/2]*/
 .order__food {
-    color:rgb(41,138,101);
+    color: rgb(41, 138, 101);
     font-weight: bold;
 }
+
 .divider__component {
-    background-color:rgb(41,138,101);
+    background-color: rgb(41, 138, 101);
     height: 3px;
     width: 8%;
 }
+
 .text__about__order {
-    color: rgb(75,79,105);
+    color: rgb(75, 79, 105);
     font-weight: bold;
 }
-.icon__list{
+
+.icon__list {
     color: #6f7490;
 }
+
 .text__mobille-app {
     color: #6f7490;
 }
+
 .icon__list-item {
     width: 35px;
 }
+
 .button-menu {
     color: white;
     background-color: rgb(32, 170, 110);
     padding: 16px 40px;
     border-radius: 5px;
-    text-decoration-line: none; 
+    text-decoration-line: none;
     display: inline-flex;
 }
+
 .button-menu:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
 }
+
 .picture {
     width: 600px;
 }
+
 /* 4 блок Oleksandr Silaiev[1/2]*/
 .carrousel__categories-title {
     font-size: 38px;
     text-align: center;
     color: rgb(41, 138, 101);
 }
+
 .carrousel__title-separator {
     display: block;
     margin: 20px auto 20px auto;
@@ -97,6 +108,7 @@
     background-color: rgb(41, 138, 101);
     border-color: rgb(41, 138, 101);
 }
+
 .carrousel__name-separator {
     display: block;
     margin: 20px auto 20px auto;
@@ -105,40 +117,54 @@
     background-color: rgb(111, 116, 144);
     border-color: rgb(111, 116, 144);
 }
+
 .carrousel__categories-choose-cuisine {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 19px;
     text-align: center;
     color: rgb(111, 116, 144);
 }
+
 .carrousel__categories-name {
     font-size: 22px;
     text-align: center;
     color: rgb(61, 196, 145);
 }
+
 .carrousel__categories-comment {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     text-align: center;
     color: rgb(111, 116, 144);
 }
-.carrousel__categories-vegeterian, .carrousel__categories-sushi, .carrousel__categories-pizza, .carrousel__categories-bakery, .carrousel__categories-fast-food {
+
+.carrousel__categories-vegeterian,
+.carrousel__categories-sushi,
+.carrousel__categories-pizza,
+.carrousel__categories-bakery,
+.carrousel__categories-fast-food {
     display: block;
     border-radius: 100%;
     padding: 15px;
     background-color: var(--background-color);
     width: 40px;
     height: 40px;
-    margin: 30px auto 30px auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin: 50px auto 30px auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
+
 .carrousel__categories-item {
     box-shadow: 0px 0px 8px -3px grey;
     background-color: white;
-    margin: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: 40px;
+    padding-bottom: 25px;
+    padding-top: 1px;
+}
+
+.carrousel__categories {
+    margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 /* 5 блок MarianaVentsel[1/1]*/
@@ -151,46 +177,56 @@
     text-align: center;
     color: rgb(41, 138, 101);
 }
+
 .deliveri__title-separator {
     display: block;
-    margin: auto;
+    margin: 20px auto 20px auto;
     width: 4%;
     height: 3px;
     background-color: rgb(41, 138, 101);
     border-color: rgb(41, 138, 101);
 }
+
 .benefits__comment-separator {
     display: block;
-    margin: auto;
+    margin: 20px auto 20px auto;
     width: 10%;
     height: 3px;
     background-color: rgb(111, 116, 144);
     border-color: rgb(111, 116, 144);
 }
+
 .delivery__comfort {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 19px;
     text-align: center;
     color: rgb(111, 116, 144);
 }
+
 .benefits__item-comment {
     font-size: 22px;
+    margin: 25px auto 20px auto;
     text-align: center;
     color: rgb(61, 196, 145);
 }
+
 .benefits__item-explanation {
-    font-family:'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     text-align: center;
     color: rgb(111, 116, 144);
 }
+
 .delivery__benefits-item {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     padding-left: 30px;
     padding-right: 30px;
 }
-.benefits__item-check, .benefits__item-location, .benefits__item-alltime {
+
+.benefits__item-check,
+.benefits__item-location,
+.benefits__item-alltime {
     background-color: white;
     border-radius: 50%;
     padding: 15px;
@@ -210,9 +246,9 @@
 }
 
 @media (min-width: 764px) {
-.carrousel__reviews {
-    grid-template-columns: 1fr 1fr;
-    } 
+    .carrousel__reviews {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .carrousel__reviews-content {
@@ -230,8 +266,9 @@
     border-radius: 70px;
     object-fit: cover;
     margin: auto;
-   /* object-position: 85% 30%; */
+    /* object-position: 85% 30%; */
 }
+
 .carrousel__reviews-content-name {
     color: #4b4f69;
     padding-top: 20px;
@@ -259,39 +296,46 @@
     flex-direction: column;
     align-items: center;
 }
+
 .faq_questions {
-    color:rgb(41,138,101);
+    color: rgb(41, 138, 101);
     font-size: 50px;
     font-weight: 800;
 }
+
 .small_green_line {
     width: 50px;
     height: 4px;
-    background-color: rgb(41,138,101);
+    background-color: rgb(41, 138, 101);
     align-self: center;
     margin-top: 20px;
 }
+
 .faq_content {
     margin-top: 20px;
     font-size: 20px;
     color: #6f7490;
     font-weight: 700;
 }
+
 .question_answer {
     margin: 10px;
     line-height: 28px;
 }
+
 .question {
     margin-bottom: 15px;
     color: #3DC491;
     font-size: 25px;
     font-weight: 600;
 }
+
 .answer {
     color: #6f7490;
     font-weight: 400;
     font-size: 18px;
 }
+
 @media (min-width:640px) {
     .question_list {
         display: grid;
@@ -300,41 +344,49 @@
         margin: 30px 200px 30px 200px;
     }
 }
+
 @media (min-width: 810px) {
     .question_list {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
 /* 11 блок Таня Стащак[2/2]*/
-.contacts, .address {
+.contacts,
+.address {
     display: flex;
     flex-direction: column;
     line-height: 28px;
 }
+
 .contacts_content {
-    color:rgb(41,138,101);
+    color: rgb(41, 138, 101);
     font-size: 50px;
     font-weight: 800;
 }
+
 .small_green_line_seft_side {
     width: 50px;
     height: 4px;
-    background-color: rgb(41,138,101);
-    align-self:auto;
+    background-color: rgb(41, 138, 101);
+    align-self: auto;
     margin-top: 20px;
 }
+
 .contacts_content_explanation {
     margin-top: 20px;
     font-size: 20px;
     color: #6f7490;
     font-weight: 700;
 }
+
 .address a {
     text-decoration: none;
-    color:#6f7490;
+    color: #6f7490;
     font-size: 18px;
     font-weight: 700;
 }
+
 address a.phone {
     margin-top: 35px;
     margin-bottom: 20px;
@@ -342,10 +394,12 @@ address a.phone {
     font-weight: 800px;
     color: #f14952;
 }
+
 .support_info img {
     width: 70%;
     height: auto;
 }
+
 @media (min-width:640px) {
     .support_info {
         display: grid;
