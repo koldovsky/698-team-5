@@ -47,6 +47,13 @@
 }
 
 /* 3 блок Olesia Holod[1/2]*/
+.wrapper {
+    position:relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
 .content {
     display: flex;
     flex-direction: row;
@@ -86,19 +93,21 @@
 .icon__list {
     color: #6f7490;
     margin-left: 40px;
-    
-}
-
-.text__mobille-app {
-    
-    color: #6f7490;
-    margin: 30px;
-    width: 520px;
-    margin-left: 40px;
 }
 
 .icon__list-item {
-    width: 35px;
+    width: 25px;
+    vertical-align:middle;
+    padding-right: 5px;
+    margin-bottom: 8px;
+}
+
+.text__mobille-app {
+    font-size:22 px;
+    color: #6f7490;
+    width: 520px;
+    margin: 30px;
+    margin-left: 40px;
 }
 
 .button-menu {
@@ -118,6 +127,18 @@
 .image__block {
  
 }
+.background-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: inherit;
+    transition: opacity .3s ease-out;
+}
+
 .picture {
     width: 700px;
     
