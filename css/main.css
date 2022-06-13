@@ -47,16 +47,10 @@
 }
 
 /* 3 блок Olesia Holod[1/2]*/
-.wrapper {
-    position:relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-}
 .content {
     display: flex;
     flex-direction: row;
+    padding: 100px 0px 60px 0px;
 }
 .text__block {
     justify-content: space-between;
@@ -65,10 +59,10 @@
 }
 .order__food {
     color: rgb(41, 138, 101);
-    font-weight: bold;
-    font-size: 38px; 
+    font-size: 42px; 
+    font-weight: 800;
     width: 450px;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .divider__component {
@@ -76,7 +70,7 @@
     height: 3px;
     width: 8%;
     margin: 20px;
-    margin-left: 40px;
+    margin-left: 60px;
     
     
 }
@@ -87,12 +81,12 @@
     font-size: 17px;
     margin: 25px;
     width: 450px;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .icon__list {
     color: #6f7490;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .icon__list-item {
@@ -106,8 +100,8 @@
     font-size:22 px;
     color: #6f7490;
     width: 520px;
-    margin: 30px;
-    margin-left: 40px;
+    margin: 35px;
+    margin-left: 60px;
 }
 
 .button-menu {
@@ -117,32 +111,18 @@
     border-radius: 5px;
     text-decoration-line: none;
     display: inline-flex;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .button-menu:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
 }
-.image__block {
- 
-}
-.background-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: 0;
-    border-radius: inherit;
-    transition: opacity .3s ease-out;
-}
 
 .picture {
-    width: 700px;
-    
-
+    width: 550px;
+    background-image: url(../img/background.png);
+    background-size: cover;
 }
 
 /* 4 блок Oleksandr Silaiev[1/2]*/
