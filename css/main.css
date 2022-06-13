@@ -47,28 +47,54 @@
 }
 
 /* 3 блок Olesia Holod[1/2]*/
+.content {
+    display: flex;
+    flex-direction: row;
+}
+.text__block {
+    justify-content: space-between;
+    align-items: baseline;
+    
+}
 .order__food {
     color: rgb(41, 138, 101);
     font-weight: bold;
+    font-size: 38px; 
+    width: 450px;
+    margin-left: 40px;
 }
 
 .divider__component {
     background-color: rgb(41, 138, 101);
     height: 3px;
     width: 8%;
+    margin: 20px;
+    margin-left: 40px;
+    
+    
 }
 
 .text__about__order {
-    color: rgb(75, 79, 105);
+    color: rgb(111, 116, 144);
     font-weight: bold;
+    font-size: 17px;
+    margin: 25px;
+    width: 450px;
+    margin-left: 40px;
 }
 
 .icon__list {
     color: #6f7490;
+    margin-left: 40px;
+    
 }
 
 .text__mobille-app {
+    
     color: #6f7490;
+    margin: 30px;
+    width: 520px;
+    margin-left: 40px;
 }
 
 .icon__list-item {
@@ -82,15 +108,20 @@
     border-radius: 5px;
     text-decoration-line: none;
     display: inline-flex;
+    margin-left: 40px;
 }
 
 .button-menu:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
 }
-
+.image__block {
+ 
+}
 .picture {
-    width: 600px;
+    width: 700px;
+    
+
 }
 
 /* 4 блок Oleksandr Silaiev[1/2]*/
