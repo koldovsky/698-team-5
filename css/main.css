@@ -64,46 +64,70 @@
     width: 450px;
     margin-left: 60px;
 }
-
+@media (min-width:500px) {
+.order__food{
+    font-size: 35px;
+    margin-left: 40px;
+}   
+}
 .divider__component {
     background-color: rgb(41, 138, 101);
     height: 3px;
     width: 8%;
     margin: 20px;
-    margin-left: 60px;
-    
-    
+    margin-left: 40px;
 }
-
+@media (min-width:500px) {
+.divider__component {
+    margin-left: 40px;  
+    width: 5%;  
+}
+}
 .text__about__order {
     color: rgb(111, 116, 144);
     font-weight: bold;
-    font-size: 17px;
+    font-size: 25px;
     margin: 25px;
     width: 450px;
     margin-left: 60px;
 }
-
+@media (min-width:500px) {
+.text__about__order  {
+    font-size: 15px;
+    margin-left: 40px;
+}  
+}
 .icon__list {
+    font-size: 20px;
     color: #6f7490;
     margin-left: 60px;
 }
-
+@media (min-width:500px) { 
+.icon__list {
+    margin-left: 40px;
+    font-size: 15px;
+}
+}
 .icon__list-item {
     width: 25px;
     vertical-align:middle;
     padding-right: 5px;
     margin-bottom: 8px;
 }
-
 .text__mobille-app {
-    font-size:22 px;
+    font-size:20 px;
     color: #6f7490;
     width: 520px;
     margin: 35px;
     margin-left: 60px;
 }
-
+@media (min-width:500px) {
+.text__mobille-app {
+    margin-left: 40px;  
+    font-size: 15px;
+    margin: 30px;
+}    
+}
 .button-menu {
     color: white;
     background-color: rgb(32, 170, 110);
@@ -112,17 +136,39 @@
     text-decoration-line: none;
     display: inline-flex;
     margin-left: 60px;
+    margin-bottom: 35px;
+    font-size: 17px;
 }
-
+@media (min-width:500px) {
+.button-menu {
+    border-radius: 3px;
+    padding: 10px 35px;
+    margin-left: 40px; 
+    margin-bottom: 30px;
+    font-size: 15px;
+}    
+}
 .button-menu:hover {
     background-color: rgb(255, 0, 0);
     transition: 0.5s;
 }
-
+.image__block {
+    display: flex;
+    flex-direction: column;  
+}
+@media (min-width:500px) {
+.image__block {
+    display: flex;
+    flex-direction: column; 
+}    
+}
 .picture {
+    display: flex;
+    flex-direction: column;
     width: 550px;
     background-image: url(../img/background.png);
     background-size: cover;
+    
 }
 
 /* 4 блок Oleksandr Silaiev[1/2]*/
