@@ -53,6 +53,7 @@
     padding: 100px 0px 60px 0px;
 }
 .text__block {
+    text-align: left;
     justify-content: space-between;
     align-items: baseline;
     
@@ -100,7 +101,8 @@
 .icon__list {
     font-size: 20px;
     color: #6f7490;
-    margin-left: 60px;
+    margin-left: 50px;
+    
 }
 @media (min-width:520px) { 
 .icon__list {
@@ -108,27 +110,36 @@
     margin-left: 50px;
 }
 }
+li {
+    list-style-type: none; 
+    
+}
+li:before {
+    content: '\1F534';
+}
 .icon__list-item {
     width: 25px;
     vertical-align:middle;
     padding-right: 5px;
     margin-bottom: 8px;
 }
-.text__mobille-app {
+.text__mobile-app {
+    vertical-align: baseline;
     font-size: 20px;
     color: #6f7490;
     width: 520px;
     margin: 35px;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 @media (min-width:520px) {
 .text__mobille-app {
     font-size: 18px;
-    margin-left: 50px;  
+    margin-left: 40px;  
     margin: 30px;
 }    
 }
 .button-menu {
+    vertical-align: baseline;
     color: white;
     background-color: rgb(32, 170, 110);
     padding: 16px 40px;
@@ -149,7 +160,7 @@
 }    
 }
 .button-menu:hover {
-    background-color:#f14952; ;
+    background-color:#ff775e;;
     transition: 0.5s;
 }
 .image__block {
