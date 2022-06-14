@@ -64,10 +64,10 @@
     width: 450px;
     margin-left: 60px;
 }
-@media (min-width:500px) {
+@media (min-width:520px) {
 .order__food{
     font-size: 35px;
-    margin-left: 40px;
+    margin-left: 50px;
 }   
 }
 .divider__component {
@@ -75,26 +75,26 @@
     height: 3px;
     width: 8%;
     margin: 20px;
-    margin-left: 40px;
+    margin-left: 60px;
 }
-@media (min-width:500px) {
+@media (min-width:520px) {
 .divider__component {
-    margin-left: 40px;  
-    width: 5%;  
+    width: 5%;
+    margin-left: 50px;   
 }
 }
 .text__about__order {
     color: rgb(111, 116, 144);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     margin: 25px;
     width: 450px;
     margin-left: 60px;
 }
-@media (min-width:500px) {
+@media (min-width:520px) {
 .text__about__order  {
-    font-size: 15px;
-    margin-left: 40px;
+    font-size: 18px;
+    margin-left: 50px;
 }  
 }
 .icon__list {
@@ -102,10 +102,10 @@
     color: #6f7490;
     margin-left: 60px;
 }
-@media (min-width:500px) { 
+@media (min-width:520px) { 
 .icon__list {
-    margin-left: 40px;
-    font-size: 15px;
+    font-size: 18px;
+    margin-left: 50px;
 }
 }
 .icon__list-item {
@@ -115,16 +115,16 @@
     margin-bottom: 8px;
 }
 .text__mobille-app {
-    font-size:20 px;
+    font-size: 20px;
     color: #6f7490;
     width: 520px;
     margin: 35px;
     margin-left: 60px;
 }
-@media (min-width:500px) {
+@media (min-width:520px) {
 .text__mobille-app {
-    margin-left: 40px;  
-    font-size: 15px;
+    font-size: 18px;
+    margin-left: 50px;  
     margin: 30px;
 }    
 }
@@ -139,24 +139,24 @@
     margin-bottom: 35px;
     font-size: 17px;
 }
-@media (min-width:500px) {
+@media (min-width:520px) {
 .button-menu {
     border-radius: 3px;
     padding: 10px 35px;
-    margin-left: 40px; 
+    margin-left: 50px; 
     margin-bottom: 30px;
     font-size: 15px;
 }    
 }
 .button-menu:hover {
-    background-color: rgb(255, 0, 0);
+    background-color:#f14952; ;
     transition: 0.5s;
 }
 .image__block {
     display: flex;
     flex-direction: column;  
 }
-@media (min-width:500px) {
+@media (min-width:520px) {
 .image__block {
     display: flex;
     flex-direction: column; 
@@ -168,7 +168,6 @@
     width: 550px;
     background-image: url(../img/background.png);
     background-size: cover;
-    
 }
 
 /* 4 блок Oleksandr Silaiev[1/2]*/
