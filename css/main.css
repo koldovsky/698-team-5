@@ -50,7 +50,7 @@
 .content {
     display: flex;
     flex-direction: row;
-    padding: 90px 0px 60px 0px;
+    padding-top: 60px;
 }
 
 .text__block {
@@ -61,7 +61,7 @@
 
 .order__food {
     color: rgb(41, 138, 101);
-    font-size: 42px;
+    font-size:70px;
     font-weight: 800;
     width: 450px;
     margin-left: 60px;
@@ -69,8 +69,8 @@
 
 @media (min-width:520px) {
     .order__food {
-        font-size: 35px;
-        margin-left: 50px;
+        font-size: 30px;
+        margin-left: 10px;
     }
 }
 
@@ -94,7 +94,7 @@
     font-size: 20px;
     font-weight: bold;
     margin: 25px;
-    width: 450px;
+    width: 500px;
     margin-left: 60px;
 }
 
@@ -115,7 +115,7 @@
 @media (min-width:520px) {
     .icon__list {
         font-size: 15px;
-        margin-left: 50px;
+        margin-left: 18px;
     }
 }
 
@@ -130,7 +130,7 @@ li:before {
 
 .icon__list-item {
     width: 25px;
-    vertical-align: middle;
+    vertical-align:middle;
     padding-right: 5px;
     margin-bottom: 8px;
 }
@@ -177,7 +177,6 @@ li:before {
 
 .button-menu:hover {
     background-color: #ff775e;
-    ;
     transition: 0.5s;
 }
 
@@ -190,16 +189,18 @@ li:before {
 @media (min-width:520px) {
     .image__block {
         display: flex;
-        align-items: flex-end;
-
+        flex-direction: row;
+        align-items: center;
     }
 }
 
 .picture {
-    width: 550px;
+    width: 500px;
     background-image: url(../img/background.png);
     background-size: cover;
+    justify-content: center;
 }
+
 
 /* 4 блок Oleksandr Silaiev[1/2]*/
 .carrousel__categories-title {
