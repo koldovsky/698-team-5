@@ -442,6 +442,151 @@ li:before {
 }
 
 /* 9 блок Roman Sosnovskyi[1/1]*/
+.background_2xT {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(../img/baner.webp);
+    background-size: cover;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.green-line {
+    width: 3%;
+    height: 3px;
+    background-color: rgb(41, 138, 101);
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-self: center;
+    margin-top: -20px;
+
+}
+
+.section__baner {
+    color: rgb(75, 79, 105);
+    font-weight: 1000;
+    font-size: 60px;
+    padding-bottom: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+@media (min-width: 500px) {
+    .banner__fluid-title {
+        font-size: 80px;
+    }
+}
+
+.component__tittle {
+    color: #6f7490;
+    font-weight: 600;
+    font-size: 19px;
+    padding-bottom: 70px;
+}
+
+.Sambit {
+    color: white;
+    background-color: rgb(32, 218, 103);
+    padding: 16px 40px;
+    border-radius: 5px;
+    text-decoration-line: none;
+}
+
+.modal-content {
+    width: 600px;
+    height: 550px;
+    margin:
+        40px auto;
+    background:
+        #6f7490;
+    border:
+        1px solid #6f7490;
+    border-radius: 15px;
+    z-index: index 150;
+}
+.small_green_line-info {
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 10%;
+    height: 3px;
+    background-color: rgb(41, 138, 101);
+    
+
+}
+
+.contacts__form {
+    width: 275px;
+    margin: 0px auto 20px ;
+    text-align: center;
+    
+    
+}
+
+.input {
+    width: 260px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.btn-close {
+    margin: 10px 0 0 460px;
+}
+
+.titel-form {
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.text-form {
+    margin-left: auto;
+    margin-right: auto;
+    color: #6f7490;
+
+
+}
+
+.text-form-out {
+    margin-left: auto;
+    margin-right: auto;
+    color: #6f7490;
+    margin-top: -15px;
+    
+}
+
+.sambit-button {
+    color: white;
+    background-color: rgb(32, 218, 103);
+    padding: -16px 1000px;
+    border-radius: 5px;
+    text-decoration-line: none;
+    width: 260px;
+    padding: 5px;
+    margin-bottom: 20px;
+
+
+}
+
+.span-info {
+    display: table-cell;
+    vertical-align: bottom;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 50%);
+    margin-top: 200px;
+    
+}
 
 /* 10 блок Таня Стащак[1/2]*/
 .faq {
