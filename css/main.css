@@ -50,27 +50,30 @@
 .content {
     display: flex;
     flex-direction: row;
-    padding: 100px 0px 60px 0px;
+    padding: 90px 0px 60px 0px;
 }
+
 .text__block {
     text-align: left;
     justify-content: space-between;
     align-items: baseline;
-    
 }
+
 .order__food {
     color: rgb(41, 138, 101);
-    font-size: 42px; 
+    font-size: 42px;
     font-weight: 800;
     width: 450px;
     margin-left: 60px;
 }
+
 @media (min-width:520px) {
-.order__food{
-    font-size: 35px;
-    margin-left: 50px;
-}   
+    .order__food {
+        font-size: 35px;
+        margin-left: 50px;
+    }
 }
+
 .divider__component {
     background-color: rgb(41, 138, 101);
     height: 3px;
@@ -78,66 +81,77 @@
     margin: 20px;
     margin-left: 60px;
 }
+
 @media (min-width:520px) {
-.divider__component {
-    width: 5%;
-    margin-left: 50px;   
+    .divider__component {
+        width: 5%;
+        margin-left: 50px;
+    }
 }
-}
+
 .text__about__order {
     color: rgb(111, 116, 144);
+    font-size: 20px;
     font-weight: bold;
-    font-size: 30px;
     margin: 25px;
     width: 450px;
     margin-left: 60px;
 }
+
 @media (min-width:520px) {
-.text__about__order  {
-    font-size: 18px;
-    margin-left: 50px;
-}  
+    .text__about__order {
+        font-size: 18px;
+        margin-left: 50px;
+    }
 }
+
 .icon__list {
     font-size: 20px;
     color: #6f7490;
     margin-left: 50px;
-    
+
 }
-@media (min-width:520px) { 
-.icon__list {
-    font-size: 18px;
-    margin-left: 50px;
+
+@media (min-width:520px) {
+    .icon__list {
+        font-size: 15px;
+        margin-left: 50px;
+    }
 }
-}
+
 li {
-    list-style-type: none; 
-    
+    list-style-type: none;
+
 }
+
 li:before {
     content: '\1F534';
 }
+
 .icon__list-item {
     width: 25px;
-    vertical-align:middle;
+    vertical-align: middle;
     padding-right: 5px;
     margin-bottom: 8px;
 }
+
 .text__mobile-app {
     vertical-align: baseline;
-    font-size: 20px;
+    font-size: 16px;
     color: #6f7490;
     width: 520px;
     margin: 35px;
     margin-left: 50px;
 }
+
 @media (min-width:520px) {
-.text__mobille-app {
-    font-size: 18px;
-    margin-left: 40px;  
-    margin: 30px;
-}    
+    .text__mobille-app {
+        font-size: 15px;
+        margin-left: 40px;
+        margin: 30px;
+    }
 }
+
 .button-menu {
     vertical-align: baseline;
     color: white;
@@ -150,33 +164,38 @@ li:before {
     margin-bottom: 35px;
     font-size: 17px;
 }
+
 @media (min-width:520px) {
-.button-menu {
-    border-radius: 3px;
-    padding: 10px 35px;
-    margin-left: 50px; 
-    margin-bottom: 30px;
-    font-size: 15px;
-}    
+    .button-menu {
+        border-radius: 3px;
+        padding: 10px 35px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
 }
+
 .button-menu:hover {
-    background-color:#ff775e;;
+    background-color: #ff775e;
+    ;
     transition: 0.5s;
 }
-.image__block {
-    display: flex;
-    flex-direction: column;  
-}
-@media (min-width:520px) {
+
 .image__block {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}    
 }
+
+@media (min-width:520px) {
+    .image__block {
+        display: flex;
+        align-items: flex-end;
+
+    }
+}
+
 .picture {
-    display: flex;
-    flex-direction: column;
     width: 550px;
     background-image: url(../img/background.png);
     background-size: cover;
