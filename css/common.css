@@ -6,19 +6,15 @@
     padding: 0px;
 }
 
-:root {
+/* :root */
+.main {
     font-family: 'Barlow', sans-serif;
     background-color: var(--background-color);
     
     --background-color: #fcf6ec;
-    
 }
 
-/*
 img {
     display: block;
     width: 100%;
   }
-*/
-
-/* Цей файл поки що бажано не змінювати, я підключив все що необхідно на цей момент. (с) Ваш тімлід */
