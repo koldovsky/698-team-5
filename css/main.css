@@ -61,7 +61,7 @@
 
 .order__food {
     color: rgb(41, 138, 101);
-    font-size:70px;
+    font-size: 45px;
     font-weight: 800;
     width: 450px;
     margin-left: 0px;
@@ -69,8 +69,8 @@
 
 @media (min-width:520px) {
     .order__food {
-        font-size: 30px;
-        margin-left: 10px;
+        font-size: 20px;
+        margin-left: 5px;
     }
 }
 
@@ -79,13 +79,13 @@
     height: 3px;
     width: 8%;
     margin: 20px;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 
 @media (min-width:520px) {
     .divider__component {
         width: 5%;
-        margin-left: 50px;
+        margin-left: 5px;
     }
 }
 
@@ -95,27 +95,27 @@
     font-weight: bold;
     margin: 25px;
     width: 500px;
-    margin-left: 60px;
+    margin-left: 0px;
 }
 
 @media (min-width:520px) {
     .text__about__order {
         font-size: 18px;
-        margin-left: 50px;
+        margin-left: 5px;
     }
 }
 
 .icon__list {
     font-size: 20px;
     color: #6f7490;
-    margin-left: 50px;
+    margin-left: 5px;
 
 }
 
 @media (min-width:520px) {
     .icon__list {
         font-size: 15px;
-        margin-left: 18px;
+        margin-left: 5px;
     }
 }
 
@@ -141,13 +141,13 @@ li:before {
     color: #6f7490;
     width: 520px;
     margin: 35px;
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 @media (min-width:520px) {
     .text__mobille-app {
         font-size: 15px;
-        margin-left: 40px;
+        margin-left: 5px;
         margin: 30px;
     }
 }
@@ -160,7 +160,7 @@ li:before {
     border-radius: 5px;
     text-decoration-line: none;
     display: inline-flex;
-    margin-left: 60px;
+    margin-left: 0px;
     margin-bottom: 35px;
     font-size: 17px;
 }
@@ -169,7 +169,7 @@ li:before {
     .button-menu {
         border-radius: 3px;
         padding: 10px 35px;
-        margin-left: 50px;
+        margin-left: 5px;
         margin-bottom: 30px;
         font-size: 15px;
     }
