@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/index.css">
     <title>Food order</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
@@ -380,19 +382,49 @@
         </section>
 
         <!-- 9 блок - Roman Sosnovskyi[1/1] -->
-        <section>
-            <img src="img/baner.webp" alt="Fon" width="1000">
+        <section class="background_2xT">
+            <!--<img src="img/baner.webp" alt="Fon" width="">-->
             <div class="selection__content">
                 <h1 class="section__baner">
                     Want to Become Our Partner?
                 </h1>
-                <p class="component"> -</p>
+                <div class="green-line">
+                    <!-- Line -->
+                </div>
                 <p class="component__tittle">
                     Press the button and send us a message, we will contact you shortly.
                 </p>
-                <a href="tables.html" class="Sambit">Send Reguest</a>
+                <!--<button type="button" data-toggle="modal" data-target="#myModal" class="Sambit">Send Reguest </button>-->
+                <button type="button" class="Sambit" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@getbootstrap">Send Reguest</button>
+
+                </button>
             </div>
         </section>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog"> 
+                <div class="modal-content">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h2 class="titel-form">Become Our Partner!</h2>
+                    <div class="small_green_line-info">
+                        <!-- Line -->
+                    </div>
+                    <p class="text-form">Want to join 400+ NY restaurants working with us? </p>
+                    <p class="text-form-out">Fill out the form:</p>
+                    <form class="contacts__form" action="" method="post">
+                        <input class="input" type="text" name="name" placeholder="Name" required>
+                        <input class="input type="tel" name="phone " placeholder="Phone number" required>
+                        <input class="input type="email" name="email " placeholder="Email" required>
+                        <input class="sambit-button" type="button" value="Sambit">
+                        <span class="span-info">By sumbmitting this form, you accept our Terms & Privacy Policy</span>
+                    
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
 
         <!-- 10 блок - Таня Стащак[1/2] -->
         <section class="question_reviews">
@@ -486,6 +518,11 @@
         </section>
     </main>
     <!-- 12 блок - Oksana Smut[2/2] -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
 
 </body>
 
