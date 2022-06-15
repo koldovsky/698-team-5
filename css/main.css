@@ -254,8 +254,8 @@ li:before {
     border-radius: 100%;
     padding: 15px;
     background-color: var(--background-color);
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     margin: 25px auto 30px auto;
 }
 
@@ -437,8 +437,8 @@ li:before {
     border-radius: 50%;
     padding: 15px;
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     margin-left: auto;
     margin-right: auto;
 }
