@@ -47,88 +47,41 @@
 }
 
 /* 3 блок Olesia Holod[1/2]*/
-.content {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
+.text__block {
+    margin-left: 30px;
+    min-width: 270px;
 }
 
-.text__block {
-    justify-content:space-between;
-    align-items: baseline;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-@media (min-width:520px) {
-.text__block {
-    justify-content:center;
-    text-align: left;
-    padding-left: 0px;
-    padding-right: 0px;
-}    
-}
 .order__food {
     color: rgb(41, 138, 101);
-    font-size: 45px;
-    font-weight: 800;
-    width: 450px;
-    margin-left: 5px;
-}
-
-@media (min-width:520px) {
-    .order__food {
-        font-size: 18px;
-        margin-left: 3px;
-    }
+    font-size: 38px;
 }
 
 .divider__component {
     background-color: rgb(41, 138, 101);
     height: 3px;
     width: 8%;
-    margin: 20px;
-    margin-left: 0px;
-}
-
-@media (min-width:520px) {
-    .divider__component {
-        width: 5%;
-        margin-left: 5px;
-    }
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .text__about__order {
+    font-family: 'Roboto', sans-serif;
     color: rgb(111, 116, 144);
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
-    margin: 25px;
-    width: 500px;
-    margin-left: 0px;
-}
-
-@media (min-width:520px) {
-    .text__about__order {
-        font-size: 18px;
-        margin-left: 5px;
-    }
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .icon__list {
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
     color: #6f7490;
-    margin-left: 0px;
-}
-
-@media (min-width:520px) {
-    .icon__list {
-        font-size: 15px;
-        margin-left: 5px;
-    }
 }
 
 li {
     list-style-type: none;
-
 }
 
 li:before {
@@ -136,51 +89,29 @@ li:before {
 }
 
 .icon__list-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
     width: 25px;
-    vertical-align: middle;
-    padding-right: 5px;
     margin-bottom: 8px;
-   
 }
 
 .text__mobile-app {
-    vertical-align:middle;
-    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
     color: #6f7490;
-    width: 520px;
-    margin: 35px;
-    margin-left: 0px;
-}
-
-@media (min-width:520px) {
-    .text__mobille-app {
-        font-size: 15px;
-        margin-left: 5px;
-        margin: 30px;
-    }
+    margin: 35px 0px 45px 0px;
 }
 
 .button-menu {
-    vertical-align: baseline;
     color: white;
     background-color: rgb(32, 170, 110);
-    padding: 16px 40px;
-    border-radius: 5px;
+    padding: 20px 65px;
+    border-radius: 3px;
     text-decoration-line: none;
-    display: inline-flex;
-    margin-left: 0px;
-    margin-bottom: 35px;
-    font-size: 17px;
-}
-
-@media (min-width:520px) {
-    .button-menu {
-        border-radius: 3px;
-        padding: 10px 35px;
-        margin-left: 5px;
-        margin-bottom: 30px;
-        font-size: 15px;
-    }
+    display: inline-block;
+    margin-bottom: 45px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .button-menu:hover {
@@ -189,27 +120,32 @@ li:before {
 }
 
 .image__block {
-    display: flex;
-    flex-direction: column;
-}
-
-@media (min-width:520px) {
-    .image__block {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+    margin: 30px auto 0px auto;
 }
 
 .picture {
-    width: 500px;
+    width: 90%;
+    height: 90%;
     background-image: url(../img/background.png);
     background-size: cover;
-    justify-content: center;
+}
+.content {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 820px) {
+    .content {
+        grid-template-columns: 1fr 1fr;
+    }
+    .order__food {
+        font-size: 50px;
+    }
 }
 
 
-/* 4 блок Oleksandr Silaiev[1/2]*/
+/* 4 блок Oleksandr Silaiev[1/2] */
 .carrousel__categories-title {
     font-size: 38px;
     text-align: center;
