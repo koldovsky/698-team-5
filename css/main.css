@@ -54,23 +54,31 @@
 }
 
 .text__block {
-    text-align: left;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: baseline;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
+@media (min-width:520px) {
+.text__block {
+    justify-content:center;
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+}    
+}
 .order__food {
     color: rgb(41, 138, 101);
     font-size: 45px;
     font-weight: 800;
     width: 450px;
-    margin-left: 0px;
+    margin-left: 5px;
 }
 
 @media (min-width:520px) {
     .order__food {
-        font-size: 20px;
-        margin-left: 5px;
+        font-size: 18px;
+        margin-left: 3px;
     }
 }
 
@@ -108,8 +116,7 @@
 .icon__list {
     font-size: 20px;
     color: #6f7490;
-    margin-left: 5px;
-
+    margin-left: 0px;
 }
 
 @media (min-width:520px) {
@@ -133,10 +140,11 @@ li:before {
     vertical-align: middle;
     padding-right: 5px;
     margin-bottom: 8px;
+   
 }
 
 .text__mobile-app {
-    vertical-align: baseline;
+    vertical-align:middle;
     font-size: 16px;
     color: #6f7490;
     width: 520px;
@@ -183,7 +191,6 @@ li:before {
 .image__block {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
 }
 
 @media (min-width:520px) {
