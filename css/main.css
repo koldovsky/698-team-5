@@ -130,7 +130,7 @@ li:before {
 
 .icon__list-item {
     width: 25px;
-    vertical-align:middle;
+    vertical-align: middle;
     padding-right: 5px;
     margin-bottom: 8px;
 }
@@ -289,6 +289,9 @@ li:before {
     .carrousel__cuisine {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .carrousel__categories-title {
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 960px) {
@@ -327,8 +330,10 @@ li:before {
     background-color: #298A65;
 }
 
-.price__title-partners, .tab__saladbar,
-.tab__pizza-italo, .tab__burger-city {
+.price__title-partners,
+.tab__saladbar,
+.tab__pizza-italo,
+.tab__burger-city {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: bold;
@@ -337,21 +342,26 @@ li:before {
     margin-bottom: 50px;
 }
 
-.salad__title, .pizza__title, .burger__title {
+.salad__title,
+.pizza__title,
+.burger__title {
     font-family: 'Barlow', sans-serif;
     font-size: 22px;
     text-align: left;
     color: #3DC491;
 }
 
-.salad__price, .pizza__price, .burger__price {
+.salad__price,
+.pizza__price,
+.burger__price {
     font-family: 'Barlow', sans-serif;
     font-size: 22px;
     font-weight: bold;
     color: #ff775e;
 }
 
-.salad__ingredients, .pizza__ingredients, 
+.salad__ingredients,
+.pizza__ingredients,
 .burger__ingredients {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -360,13 +370,13 @@ li:before {
 }
 
 /* 7 блок Oleksandr Silaiev[2/2]*/
-.deliveri__title {
+.delivery__title {
     font-size: 38px;
     text-align: center;
     color: rgb(41, 138, 101);
 }
 
-.deliveri__title-separator {
+.delivery__title-separator {
     display: block;
     margin: 20px auto 20px auto;
     width: 4%;
@@ -417,15 +427,41 @@ li:before {
     grid-template-columns: 1fr;
 }
 
-@media (min-width: 620px) {
+@media (min-width: 720px) {
     .delivery__benefits {
         grid-template-columns: 1fr 1fr;
         padding-left: 40px;
         padding-right: 40px;
     }
+
+    .delivery__title {
+        font-size: 50px;
+    }
+
+    .benefits__item-alltime {
+        width: 90px;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 35px;
+    }
 }
 
-@media (min-width: 880px) {
+@media (min-width: 720px) {
+
+    .benefits__item-check,
+    .benefits__item-location,
+    .benefits__item-alltime {
+        grid-template-columns: 1fr 1fr;
+        width: 90px;
+        height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 35px;
+    }
+}
+
+@media (min-width: 920px) {
     .delivery__benefits {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -566,6 +602,7 @@ li:before {
     border-radius: 15px;
     z-index: index 150;
 }
+
 .small_green_line-info {
     display: block;
     margin: 20px auto 20px auto;
@@ -576,7 +613,7 @@ li:before {
 
 .contacts__form {
     width: 275px;
-    margin: 0px auto 20px ;
+    margin: 0px auto 20px;
     text-align: center;
 }
 
