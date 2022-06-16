@@ -213,7 +213,7 @@ li:before {
 .carrousel__categories-title {
     font-size: 38px;
     text-align: center;
-    color: rgb(41, 138, 101);
+    color: var(--title-color);
 }
 
 .carrousel__title-separator {
@@ -221,7 +221,7 @@ li:before {
     margin: 20px auto 20px auto;
     width: 4%;
     height: 3px;
-    background-color: rgb(41, 138, 101);
+    background-color: var(--title-color);
 }
 
 .carrousel__name-separator {
@@ -229,28 +229,28 @@ li:before {
     margin: 20px auto 20px auto;
     width: 10%;
     height: 3px;
-    background-color: rgb(111, 116, 144);
+    background-color: var(--coment-color);
 }
 
 .carrousel__categories-choose-cuisine {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     text-align: center;
-    color: rgb(111, 116, 144);
+    color: var(--coment-color);
     margin-bottom: 50px;
 }
 
 .carrousel__categories-name {
     font-size: 22px;
     text-align: center;
-    color: rgb(61, 196, 145);
+    color: var(--name-color);
 }
 
 .carrousel__categories-comment {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     text-align: center;
-    color: rgb(111, 116, 144);
+    color: var(--coment-color);
 }
 
 .carrousel__categories-vegeterian,
@@ -269,7 +269,7 @@ li:before {
 
 .carrousel__categories-item {
     box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
-    background-color: white;
+    background-color: var(--around-color);
     border-radius: 2%;
     margin: 10px 40px 10px 40px;
     padding: 5px 15px 25px 15px;
@@ -391,7 +391,7 @@ li:before {
 .delivery__title {
     font-size: 38px;
     text-align: center;
-    color: rgb(41, 138, 101);
+    color: var(--title-color);
 }
 
 .delivery__title-separator {
@@ -399,7 +399,7 @@ li:before {
     margin: 20px auto 20px auto;
     width: 4%;
     height: 3px;
-    background-color: rgb(41, 138, 101);
+    background-color: var(--title-color);
 }
 
 .benefits__comment-separator {
@@ -407,28 +407,28 @@ li:before {
     margin: 20px auto 20px auto;
     width: 10%;
     height: 3px;
-    background-color: rgb(111, 116, 144);
+    background-color: var(--coment-color);
 }
 
 .delivery__comfort {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     text-align: center;
-    color: rgb(111, 116, 144);
+    color: var(--coment-color);
 }
 
 .benefits__item-comment {
     font-size: 22px;
     margin: 20px auto 10px auto;
     text-align: center;
-    color: rgb(61, 196, 145);
+    color: var(--name-color);
 }
 
 .benefits__item-explanation {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     text-align: center;
-    color: rgb(111, 116, 144);
+    color: var(--coment-color);
     max-width: 400px;
     margin: auto;
 }
@@ -448,7 +448,7 @@ li:before {
 .benefits__item-check,
 .benefits__item-location,
 .benefits__item-alltime {
-    background-color: white;
+    background-color: var(--around-color);
     border-radius: 50%;
     padding: 15px;
     display: block;
