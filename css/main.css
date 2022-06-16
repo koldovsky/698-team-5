@@ -129,16 +129,17 @@ li:before {
     background-image: url(../img/background.png);
     background-size: cover;
 }
+
 .content {
     margin-top: 90px;
     display: grid;
-    grid-template-columns: 1fr;
 }
 
 @media (min-width: 820px) {
     .content {
         grid-template-columns: 1fr 1fr;
     }
+
     .order__food {
         font-size: 50px;
     }
