@@ -20,6 +20,8 @@
     --around-color: white;
     /*Silaiev end*/
     --background-color: #fcf6ec;
+    /*Smal*/
+    --price-color: rgb(255, 119, 94);
 }
 
 img {
