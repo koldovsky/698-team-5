@@ -53,12 +53,12 @@
 }
 
 .order__food {
-    color: rgb(41, 138, 101);
+    color: var(--title-color);
     font-size: 38px;
 }
 
 .divider__component {
-    background-color: rgb(41, 138, 101);
+    background-color: var(--title-color);
     height: 3px;
     width: 8%;
     margin-top: 20px;
@@ -67,21 +67,24 @@
 
 .text__about__order {
     font-family: 'Roboto', sans-serif;
-    color: rgb(111, 116, 144);
+    color: var(--coment-color);
     font-size: 19px;
     font-weight: bold;
     margin-top: 25px;
     margin-bottom: 25px;
+    line-height: 1.5;
 }
 
 .icon__list {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
-    color: #6f7490;
+    color: var(--coment-color);
 }
 
-li {
+.colection,
+.icon__list-item {
     list-style-type: none;
+
 }
 
 li:before {
@@ -98,13 +101,14 @@ li:before {
 .text__mobile-app {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
-    color: #6f7490;
+    color: var(--coment-color);
     margin: 35px 0px 45px 0px;
+    line-height: 1.5;
 }
 
 .button-menu {
-    color: white;
-    background-color: rgb(32, 170, 110);
+    color: var(--around-color);
+    background-color: var(--name-color);
     padding: 20px 65px;
     border-radius: 3px;
     text-decoration-line: none;
@@ -115,7 +119,7 @@ li:before {
 }
 
 .button-menu:hover {
-    background-color: #ff775e;
+    background-color: var(--price-color);
     transition: 0.5s;
 }
 
@@ -174,7 +178,8 @@ li:before {
     font-size: 19px;
     text-align: center;
     color: var(--coment-color);
-    margin-bottom: 50px;
+    margin: 0px 35px 50px 35px;
+    line-height: 1.5;
 }
 
 .carrousel__categories-name {
@@ -188,6 +193,7 @@ li:before {
     font-size: 17px;
     text-align: center;
     color: var(--coment-color);
+    line-height: 1.5;
 }
 
 .carrousel__categories-vegeterian,
@@ -208,7 +214,7 @@ li:before {
     box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
     background-color: var(--around-color);
     border-radius: 2%;
-    margin: 10px 40px 10px 40px;
+    margin: 10px;
     padding: 5px 15px 25px 15px;
 }
 
@@ -221,6 +227,7 @@ li:before {
     display: grid;
     grid-template-columns: 1fr;
     min-width: 312px;
+    margin: 35px;
 }
 
 @media (min-width: 520px) {
@@ -352,6 +359,7 @@ li:before {
     font-size: 19px;
     text-align: center;
     color: var(--coment-color);
+    line-height: 1.5;
 }
 
 .benefits__item-comment {
@@ -368,6 +376,7 @@ li:before {
     color: var(--coment-color);
     max-width: 400px;
     margin: auto;
+    line-height: 1.5;
 }
 
 .delivery__benefits-item {
