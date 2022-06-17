@@ -12,7 +12,7 @@
 }
 
 .banner__fluid-title {
-    color: rgb(75, 79, 105);
+    color: var(--banner__fluid-title-color);
     font-weight: 1000;
     font-size: 60px;
     padding-bottom: 35px;
@@ -27,22 +27,22 @@
 }
 
 .banner__fluid-text {
-    color: #6f7490;
+    color: var(--banner__fluid-text-color);
     font-weight: 600;
     font-size: 19px;
     padding-bottom: 70px;
 }
 
 .banner__fluid-button {
-    color: white;
-    background-color: rgb(32, 218, 103);
+    color: var(--banner__fluid-button-text-color);
+    background-color: var(--banner__fluid-button-background-color);
     padding: 16px 40px;
     border-radius: 5px;
     text-decoration-line: none;
 }
 
 .banner__fluid-button:hover {
-    background-color: rgb(255, 0, 0);
+    background-color: var(--banner__fluid-button-hover-color);
     transition: 0.5s;
 }
 
@@ -454,7 +454,7 @@ li:before {
 .carrousel__reviews-content {
     background-color: white;
     text-align: center;
-    box-shadow: 0px 0px 6px -3px grey;
+    box-shadow: 0px 0px 6px -3px var(--carrousel__reviews-content-box-shadow-color);
     border-radius: 5px;
     padding: 50px;
     display: grid;
@@ -469,20 +469,20 @@ li:before {
 }
 
 .carrousel__reviews-content-name {
-    color: #4b4f69;
+    color: var(--carrousel__reviews-content-name-color);
     padding-top: 20px;
     font-size: 25px;
 }
 
 .carrousel_reviews-content-comment {
-    color: #6f7490;
+    color: var(--carrousel_reviews-content-comment-color);
     font-weight: 500;
     padding: 30px;
     font-size: 18px;
 }
 
 .carrousel-reviews-content-date {
-    color: #3DC491;
+    color: var(--carrousel-reviews-content-date-color);
     font-weight: 700;
     align-items: end;
 }

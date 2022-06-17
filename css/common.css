@@ -1,26 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-/*Silaev start*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/*Silaiev end*/
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
-/* :root */
-.main {
+.body {
     font-family: 'Barlow', sans-serif;
     background-color: var(--background-color);
-    /*Silaiev start*/
+    
+    --background-color: #fcf6ec;
+    /* Kharandziuk */
+    --banner__fluid-title-color: rgb(75, 79, 105);
+    --banner__fluid-text-color: #6f7490;
+    --banner__fluid-button-background-color: rgb(32, 218, 103);
+    --banner__fluid-button-text-color: white;
+    --banner__fluid-button-hover-color: rgb(255, 0, 0);
+    --carrousel__reviews-content-box-shadow-color: grey;
+    --carrousel__reviews-content-name-color: #4b4f69;
+    --carrousel_reviews-content-comment-color:#6f7490;
+    --carrousel-reviews-content-date-color: #3DC491;
+    /* Silaiev */
     --title-color: rgb(41, 138, 101);
     --name-color: rgb(61, 196, 145);
     --coment-color: rgb(111, 116, 144);
     --around-color: white;
-    /*Silaiev end*/
-    --background-color: #fcf6ec;
-    /*Smal*/
+    /* Smal */
     --price-color: rgb(255, 119, 94);
 }
 
