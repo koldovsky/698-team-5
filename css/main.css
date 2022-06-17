@@ -7,8 +7,8 @@
     flex-direction: column;
     background-image: url(../img/bg_fruits.webp);
     background-size: cover;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .banner__fluid-title {
@@ -29,8 +29,10 @@
 .banner__fluid-text {
     color: var(--banner__fluid-text-color);
     font-weight: 600;
-    font-size: 19px;
-    padding-bottom: 70px;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .banner__fluid-button {
