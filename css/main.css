@@ -57,6 +57,7 @@
 .order__food {
     color: var(--title-color);
     font-size: 38px;
+    font-weight: 800;
 }
 
 .divider__component {
@@ -93,6 +94,7 @@ li:before {
     content: '\1F534';
 }
 
+.colection
 .icon__list-item {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -111,7 +113,7 @@ li:before {
 .button-menu {
     color: var(--around-color);
     background-color: var(--name-color);
-    padding: 20px 65px;
+    padding: 17px 60px;
     border-radius: 3px;
     text-decoration-line: none;
     display: inline-block;
