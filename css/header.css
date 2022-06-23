@@ -1,0 +1,14 @@
+.header-nav {
+    margin-top: 0px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction:row;
+  }
+.img-logo {
+    display: block;
+    width: 98px;;
+    cursor: pointer;
+    margin-left: 50px;
+  }
