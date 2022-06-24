@@ -11,4 +11,15 @@
     width: 98px;;
     cursor: pointer;
     margin-left: 50px;
+}
+  .menu-link {
+    text-decoration: none;
+    color: var(--coment-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px 10px;
+  }
+  .menu-link:hover {
+    color: rgb(41, 138, 101);
   }
