@@ -16,7 +16,8 @@
     --banner__fluid-text-color: #6f7490;
     --banner__fluid-button-background-color: rgb(32, 218, 103);
     --banner__fluid-button-text-color: white;
-    --banner__fluid-button-hover-color: rgb(255, 0, 0);
+    --banner__fluid-button-hover-bg-color: rgb(255, 0, 0);
+    --banner__fluid-button-hover-color: white;
     --carrousel__reviews-content-box-shadow-color: grey;
     --carrousel__reviews-content-name-color: #4b4f69;
     --carrousel_reviews-content-comment-color:#6f7490;
