@@ -23,3 +23,15 @@
   .menu-link:hover {
     color: rgb(41, 138, 101);
   }
+  .social-icons {
+    display:flex;
+    align-items: center;
+    justify-content:right;
+  }
+  
+  .link-facebook,
+  .link-instagram,
+  .link-youtub {
+    width: 22px;
+    height: 22px;
+  }
