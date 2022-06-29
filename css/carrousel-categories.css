@@ -1,0 +1,12 @@
+.carrousel__categories-prev-button, .carrousel__categories-next-button {
+    border-radius: 50%;
+    background-color: var(--background-color);
+    width: 25px;
+    height: 25px;
+}
+
+.carrousel__categories-next-button:hover, .carrousel__categories-prev-button:hover {
+    border-color: greenyellow;
+    transition: 0.7s; 
+}
+
