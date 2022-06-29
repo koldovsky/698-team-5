@@ -1,3 +1,6 @@
+.header {
+  background-color: var(--background-color);
+}
 .header-nav {
     margin-top: 0px;
     padding: 20px 0px;
@@ -13,19 +16,10 @@
     margin-left: 50px;
 }
 .header__nav-menu {
-  display:none;
-}
-..header__nav-menu__mobile {
-  color: white;
-  font-family: var(--coment-color);
-  font-weight: bold;
-  font-size: 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  line-height: 2.25em;
-  padding-bottom: 30px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:right;
 }
   .menu-link {
     text-decoration: none;
