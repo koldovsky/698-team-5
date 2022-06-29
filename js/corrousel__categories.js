@@ -84,4 +84,14 @@
 
     showSlides();
 
+    function showDotSlides(slideNum) {
+        slideFoodIndex = slideNum;
+        showSlides()
+    };
+
+    const dots = document.querySelectorAll('.navigation__categories');
+    for (let i = 0; i < dots.length; i++) {
+    dots.addEventListener('click', () => showDotSlides(i))     
+    };
+
 })();

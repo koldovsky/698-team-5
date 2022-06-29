@@ -1,13 +1,17 @@
-.carrousel__categories-prev-button, .carrousel__categories-next-button {
+.carrousel__categories-prev-button,
+.carrousel__categories-next-button {
     border-radius: 50%;
     background-color: var(--background-color);
     width: 25px;
     height: 25px;
+    border-color: var(--coment-color);
 }
 
-.carrousel__categories-next-button:hover, .carrousel__categories-prev-button:hover {
+.carrousel__categories-next-button:hover,
+.carrousel__categories-prev-button:hover {
     border-color: greenyellow;
-    transition: 0.3s; 
+    transition: 0.3s;
+    background-color: var(--around-color);
 }
 
 .navigation__categories {
@@ -16,10 +20,14 @@
     display: flex;
     width: 180px;
     justify-content: space-between;
-    transform: translateX(-50%);  
+    transform: translateX(-50%);
 }
 
-#dot1, #dot2, #dot3, #dot4, #dot5 {
+#dot1,
+#dot2,
+#dot3,
+#dot4,
+#dot5 {
     height: 12px;
     width: 12px;
     cursor: pointer;
@@ -27,7 +35,11 @@
     transition: all .5s ease;
 }
 
-#dot1:hover, #dot2:hover, #dot3:hover, #dot4:hover, #dot5:hover {
+#dot1:hover,
+#dot2:hover,
+#dot3:hover,
+#dot4:hover,
+#dot5:hover {
     opacity: .9;
     transform: scale(1.3);
 }
