@@ -16,10 +16,10 @@
     margin-left: 50px;
 }
 .header__nav-menu {
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
   .menu-link {
     text-decoration: none;
@@ -35,7 +35,7 @@
   .social-icons {
     display:flex;
     align-items: center;
-    justify-content:right;
+    justify-content:center;
   }
   
   .link-facebook,
