@@ -70,7 +70,7 @@
     function showCurrentSlide() {
         const slideContainer = document.querySelector('.carrousel__reviews > .carrousel__reviews-body');
         slideContainer.innerHTML = slides[slideIndex];
-        if(window.innerWidth >= 764) {
+        if(window.matchMedia('(min-width: 740px)').matches) {
             const secondSlideIndex = slideIndex + 1 >= slides.length ? 0 : slideIndex + 1;
             slideContainer.innerHTML += slides[secondSlideIndex];
         }
