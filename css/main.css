@@ -280,21 +280,6 @@ li:before {
     }
 }
 
-.navigation__categories {
-    display: flex;
-    justify-content: center;
-    
-}
-
-#dot1, #dot2, #dot3, #dot4, #dot5 {
-    height: 12px;
-    width: 12px;
-    cursor: pointer;
-    opacity: .5;
-    transition: all .5s ease;
-
-}
-
 /* 5 блок MarianaVentsel[1/1]*/
 .manual__works {
     font-size: 38px;

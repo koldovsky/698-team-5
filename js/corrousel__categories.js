@@ -49,22 +49,21 @@
     let slideFoodIndex = 0;
 
     function showSlides() {
-        const slideBox = document.querySelector('.carrousel__cuisine .carrousel__categories-item');
+        const slideBox = document.querySelector('.carrousel__cuisine');
         slideBox.innerHTML = slidesFood[slideFoodIndex];
-        if (window.matchMedia('min-width = 520px').matches) {
+        if (window.matchMedia('(min-width: 520px)').matches) {
             const secondSlideFoodIndex = slideFoodIndex + 1 >= slidesFood.length ? 0 : slideFoodIndex + 1;
-            slideBox.innerHTML += showSlides[secondSlideFoodIndex];
-            if (window.matchMedia('min-width = 740px').matches) {
+            slideBox.innerHTML += slidesFood[secondSlideFoodIndex];
+            if (window.matchMedia('(min-width: 740px)').matches) {
                 const thirdSlideFoodIndex = secondSlideFoodIndex + 1 >= slidesFood.length ? 0 : secondSlideFoodIndex + 1;
-                slideBox.innerHTML += showSlides[thirdSlideFoodIndex];
-                if (window.matchMedia('min-width = 960px').matches) {
+                slideBox.innerHTML += slidesFood[thirdSlideFoodIndex];
+                if (window.matchMedia('(min-width: 960px)').matches) {
                     const fourthSlideFoodIndex = thirdSlideFoodIndex + 1 >= slidesFood.length ? 0 : thirdSlideFoodIndex + 1;
-                    slideBox.innerHTML += showSlides[fourthSlideFoodIndex];
+                    slideBox.innerHTML += slidesFood[fourthSlideFoodIndex];
                 }
             }
         }
     }
-
 
     function nextSlidesFood() {
         slideFoodIndex = slideFoodIndex + 1 >= slidesFood.length ? 0 : slideFoodIndex + 1;
