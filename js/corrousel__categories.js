@@ -54,16 +54,17 @@
         if (window.matchMedia('min-width = 520px').matches) {
             const secondSlideFoodIndex = slideFoodIndex + 1 >= slidesFood.length ? 0 : slideFoodIndex + 1;
             slideBox.innerHTML += showSlides[secondSlideFoodIndex];
-        }
-        if (window.matchMedia('min-width = 740px').matches) {
-            const thirdSlideFoodIndex = secondSlideFoodIndex + 1 >= slidesFood.length ? 0 : secondSlideFoodIndex + 1;
-            slideBox.innerHTML += showSlides[thirdSlideFoodIndex];
-        }
-        if (window.matchMedia('min-width = 960px').matches) {
-            const fourthSlideFoodIndex = thirdSlideFoodIndex + 1 >= slidesFood.length ? 0 : thirdSlideFoodIndex + 1;
-            slideBox.innerHTML += showSlides[fourthSlideFoodIndex];
+            if (window.matchMedia('min-width = 740px').matches) {
+                const thirdSlideFoodIndex = secondSlideFoodIndex + 1 >= slidesFood.length ? 0 : secondSlideFoodIndex + 1;
+                slideBox.innerHTML += showSlides[thirdSlideFoodIndex];
+                if (window.matchMedia('min-width = 960px').matches) {
+                    const fourthSlideFoodIndex = thirdSlideFoodIndex + 1 >= slidesFood.length ? 0 : thirdSlideFoodIndex + 1;
+                    slideBox.innerHTML += showSlides[fourthSlideFoodIndex];
+                }
+            }
         }
     }
+
 
     function nextSlidesFood() {
         slideFoodIndex = slideFoodIndex + 1 >= slidesFood.length ? 0 : slideFoodIndex + 1;
