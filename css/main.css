@@ -199,7 +199,7 @@ li:before {
     font-size: 19px;
     text-align: center;
     color: var(--coment-color);
-    margin: 0px 35px 50px 35px;
+    margin: 0px 35px 70px 35px;
     line-height: 1.5;
 }
 
@@ -237,10 +237,9 @@ li:before {
 }
 
 .carrousel__categories-item {
-    box-shadow: 0 5px 10px 7px rgb(136 140 133 / 5%);
+    box-shadow: 0 5px 10px 7px rgb(136 140 133 / 7%);
     background-color: var(--around-color);
-    border-radius: 2%;
-    margin: 10px;
+    border-radius: 3%;
     padding: 5px 15px 25px 15px;
 }
 
@@ -252,13 +251,12 @@ li:before {
 .carrousel__cuisine {
     display: grid;
     grid-template-columns: 1fr;
-    min-width: 312px;
-    margin: 35px;
 }
 
 @media (min-width: 520px) {
     .carrousel__cuisine {
         grid-template-columns: 1fr 1fr;
+        gap: 17px;
     }
 }
 

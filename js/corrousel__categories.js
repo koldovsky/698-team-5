@@ -75,23 +75,25 @@
         showSlides();
     }
 
-    const nextButton = document.querySelector('.carrousel__categories > .carrousel__categories-next-button');
+    const nextButton = document.querySelector('.carrousel__categories-next-button');
     nextButton.addEventListener('click', nextSlidesFood);
-    const prevButton = document.querySelector('.carrousel__categories > .carrousel__categories-prev-button');
+    const prevButton = document.querySelector('.carrousel__categories-prev-button');
     prevButton.addEventListener('click', prevSlidesFood);
 
     window.addEventListener('resize', showSlides);
 
     showSlides();
 
-    function showDotSlides(slideNum) {
+    /*function showDotSlides(slideNum) {
         slideFoodIndex = slideNum;
         showSlides()
     };
 
-    const dots = document.querySelectorAll('.navigation__categories');
+    const dots = document.querySelector('.navigation__categories');
     for (let i = 0; i < dots.length; i++) {
-    dots.addEventListener('click', () => showDotSlides(i))     
+    dots[i].addEventListener('click', () => showDotSlides(i))     
     };
+
+    showDotSlides();*/
 
 })();

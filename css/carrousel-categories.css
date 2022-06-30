@@ -1,10 +1,30 @@
+.carrousel__really {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 35px;
+}
+
 .carrousel__categories-prev-button,
 .carrousel__categories-next-button {
     border-radius: 50%;
     background-color: var(--background-color);
-    width: 25px;
-    height: 25px;
     border-color: var(--coment-color);
+}
+
+.carrousel__categories-prev-button img,
+.carrousel__categories-next-button img {
+    width: 25px;
+}
+
+.carrousel__categories-prev-button {
+    position: relative;
+    left: 10px;
+}
+
+.carrousel__categories-next-button {
+    position: relative;
+    right: 10px;
 }
 
 .carrousel__categories-next-button:hover,
@@ -12,6 +32,7 @@
     border-color: greenyellow;
     transition: 0.3s;
     background-color: var(--around-color);
+    box-shadow: 0px 5px 7px 7px rgb(136 140 133 / 7%);
 }
 
 .navigation__categories {
@@ -21,6 +42,7 @@
     width: 180px;
     justify-content: space-between;
     transform: translateX(-50%);
+    margin-top: 33px;
 }
 
 #dot1,
