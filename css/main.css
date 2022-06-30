@@ -560,7 +560,6 @@ li:before {
     padding-right: 0px;
     font-size: 18px;
 }
-
 @media (min-width: 764px) {
     .carrousel_reviews-content-comment {
         padding: 30px;
@@ -571,6 +570,7 @@ li:before {
     color: var(--carrousel-reviews-content-date-color);
     font-weight: 700;
     align-items: end;
+    padding-top: 10px;
 }
 
 /* 9 блок Roman Sosnovskyi[1/1]*/
@@ -585,7 +585,6 @@ li:before {
     padding-bottom: 110px;
     margin-left: 100px;
     margin-right: 100px;
-
 }
 
 .green-line {

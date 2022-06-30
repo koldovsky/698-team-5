@@ -86,10 +86,22 @@
         showCurrentSlide();
     }
 
+    //function showSlide(slideNum) {
+    //    slideIndex = slideNum;
+    //    showCurrentSlide();
+    //}
+
+    //const dots = document.querySelectorAll('.reviews-dots');
     const nextButton = document.querySelector('.carrousel__reviews > .carrousel__reviews-next-button');
     const previousButton = document.querySelector('.carrousel__reviews > .carrousel__reviews-previous-button');
+
     nextButton.addEventListener('click', nextSlide);
     previousButton.addEventListener('click', previousSlide);
+
+
+    //for (let i = 0; i < dots.length; i++) {
+    //    dots.addEventListener('click', showSlide(i));
+    //  } 
 
     window.addEventListener('resize', showCurrentSlide);
 
