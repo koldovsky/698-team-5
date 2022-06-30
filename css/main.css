@@ -462,22 +462,56 @@ li:before {
 }
 
 /* 8 блок Тарас Харандзюк[2/2]*/
+.carrousel__reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.carrousel__reviews-previous-button {
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    background-color: var(--background-color);
+    color: var(--carrousel__reviews-buttons-color);
+    border: 0px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.carrousel__reviews-next-button {
+    position: absolute;
+    top: 45%;
+    right: 10px;
+    background-color: var(--background-color);
+    color: var(--carrousel__reviews-buttons-color);
+    border: 0px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.carrousel__reviews-dots {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.reviews-dots {
+    border-radius: 0px;
+}
+
 .carrousel__reviews-body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 28px;
-    margin: 80px;
+    margin: 30px;
 }
-
 @media (min-width: 764px) {
     .carrousel__reviews-body {
         grid-template-columns: 1fr 1fr;
     }
 }
-
-.carrousel__reviews-previous-button {}
-
-.carrousel__reviews-next-button {}
 
 .carrousel__reviews-content {
     background-color: white;
