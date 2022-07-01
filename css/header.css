@@ -35,6 +35,10 @@
   .menu-link:hover {
     color: rgb(41, 138, 101);
   }
+  .clock {
+    color:rgb(41, 138, 101);
+    font-weight: bold;
+  }
   .social-icons {
     display:flex;
     align-items: center;
