@@ -91,7 +91,7 @@
     //    showCurrentSlide();
     //}
 
-    //const dots = document.querySelectorAll('.reviews-dots');
+    //const dots = document.querySelectorAll('.reviews-dot');
     const nextButton = document.querySelector('.carrousel__reviews > .carrousel__reviews-next-button');
     const previousButton = document.querySelector('.carrousel__reviews > .carrousel__reviews-previous-button');
 

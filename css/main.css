@@ -493,11 +493,15 @@ li:before {
 .carrousel__reviews-dots {
     display: flex;
     justify-content: space-between;
-    width: 80px;
+    width: 120px;
 }
-
-.reviews-dots {
-    border-radius: 0px;
+@media (min-width: 764px) {
+    #reviews-dot4 {
+        display: none;
+    }
+    .carrousel__reviews-dots {
+        width: 90px;  
+    }
 }
 
 .carrousel__reviews-body {
@@ -505,6 +509,7 @@ li:before {
     grid-template-columns: 1fr;
     gap: 28px;
     margin: 30px;
+    height: 550px;
 }
 @media (min-width: 764px) {
     .carrousel__reviews-body {
