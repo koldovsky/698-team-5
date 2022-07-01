@@ -117,4 +117,5 @@
     window.addEventListener('resize', showCurrentSlide);
 
     showCurrentSlide();
+    dotActive(slideIndex);
 })()
