@@ -9,6 +9,7 @@
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
+    margin: 0;
 }
 
 .banner__fluid-title {
@@ -492,16 +493,34 @@ li:before {
 
 .carrousel__reviews-dots {
     display: flex;
-    justify-content: space-between;
-    width: 120px;
+    justify-content: center;
+    width: 100%;
 }
 @media (min-width: 764px) {
     #reviews-dot4 {
         display: none;
     }
     .carrousel__reviews-dots {
-        width: 90px;  
+        width: 100%;  
     }
+}
+
+.reviews-dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(204, 202, 202);
+    border: none;
+    border-radius: 50%;
+    margin: 10px;
+}
+.reviews-dot:hover {
+    background-color: black;
+}
+.reviews-dot:focus {
+    background-color: grey;
+}
+.reviews-dot-active {
+    background-color: grey;  
 }
 
 .carrousel__reviews-body {
@@ -524,6 +543,7 @@ li:before {
     border-radius: 5px;
     padding: 50px 20px 50px 20px;
     display: grid;
+    margin: 0;
 }
 
 .carrousel__reviews-content-photo {
