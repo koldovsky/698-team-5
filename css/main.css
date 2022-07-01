@@ -494,33 +494,29 @@ li:before {
 .carrousel__reviews-dots {
     display: flex;
     justify-content: center;
-    width: 100%;
 }
 @media (min-width: 764px) {
     #reviews-dot4 {
         display: none;
-    }
-    .carrousel__reviews-dots {
-        width: 100%;  
     }
 }
 
 .reviews-dot {
     width: 10px;
     height: 10px;
-    background-color: rgb(204, 202, 202);
+    background-color: var(--carrousel__reviews-dots-background-color);
     border: none;
     border-radius: 50%;
     margin: 10px;
 }
 .reviews-dot:hover {
-    background-color: black;
+    background-color: var(--carrousel__reviews-dots-background-color-hover);
 }
 .reviews-dot:focus {
-    background-color: grey;
+    background-color: var(--carrousel__reviews-dots-background-color-focus);
 }
 .reviews-dot-active {
-    background-color: grey;  
+    background-color: var(--carrousel__reviews-dots-background-color-focus);  
 }
 
 .carrousel__reviews-body {
