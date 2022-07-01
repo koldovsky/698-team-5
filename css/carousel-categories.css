@@ -1,34 +1,34 @@
-.carrousel__really {
+.carousel__really {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 35px;
 }
 
-.carrousel__categories-prev-button,
-.carrousel__categories-next-button {
+.carousel__categories-prev-button,
+.carousel__categories-next-button {
     border-radius: 50%;
     background-color: var(--background-color);
     border-color: var(--coment-color);
 }
 
-.carrousel__categories-prev-button img,
-.carrousel__categories-next-button img {
+.carousel__categories-prev-button img,
+.carousel__categories-next-button img {
     width: 25px;
 }
 
-.carrousel__categories-prev-button {
+.carousel__categories-prev-button {
     position: relative;
     left: 10px;
 }
 
-.carrousel__categories-next-button {
+.carousel__categories-next-button {
     position: relative;
     right: 10px;
 }
 
-.carrousel__categories-next-button:hover,
-.carrousel__categories-prev-button:hover {
+.carousel__categories-next-button:hover,
+.carousel__categories-prev-button:hover {
     border-color: greenyellow;
     transition: 0.3s;
     background-color: var(--around-color);

@@ -172,13 +172,13 @@ li:before {
 
 
 /* 4 блок Oleksandr Silaiev[1/2] */
-.carrousel__categories-title {
+.carousel__categories-title {
     font-size: 38px;
     text-align: center;
     color: var(--title-color);
 }
 
-.carrousel__title-separator {
+.carousel__title-separator {
     display: block;
     margin: 20px auto 20px auto;
     width: 4%;
@@ -186,7 +186,7 @@ li:before {
     background-color: var(--title-color);
 }
 
-.carrousel__name-separator {
+.carousel__name-separator {
     display: block;
     margin: 20px auto 20px auto;
     width: 10%;
@@ -194,7 +194,7 @@ li:before {
     background-color: var(--coment-color);
 }
 
-.carrousel__categories-choose-cuisine {
+.carousel__categories-choose-cuisine {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     text-align: center;
@@ -203,13 +203,13 @@ li:before {
     line-height: 1.5;
 }
 
-.carrousel__categories-name {
+.carousel__categories-name {
     font-size: 22px;
     text-align: center;
     color: var(--name-color);
 }
 
-.carrousel__categories-comment {
+.carousel__categories-comment {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     text-align: center;
@@ -217,16 +217,16 @@ li:before {
     line-height: 1.5;
 }
 
-.carrousel__cuisine {
+.carousel__cuisine {
     display: flex;
     justify-content: space-between;
 }
 
-.carrousel__categories-vegeterian,
-.carrousel__categories-sushi,
-.carrousel__categories-pizza,
-.carrousel__categories-bakery,
-.carrousel__categories-fast-food {
+.carousel__categories-vegeterian,
+.carousel__categories-sushi,
+.carousel__categories-pizza,
+.carousel__categories-bakery,
+.carousel__categories-fast-food {
     display: block;
     border-radius: 100%;
     padding: 15px;
@@ -236,44 +236,44 @@ li:before {
     margin: 25px auto 30px auto;
 }
 
-.carrousel__categories-item {
+.carousel__categories-item {
     box-shadow: 0 5px 10px 7px rgb(136 140 133 / 7%);
     background-color: var(--around-color);
     border-radius: 3%;
     padding: 5px 15px 25px 15px;
 }
 
-.carrousel__categories {
+.carousel__categories {
     margin-top: 120px;
     margin-bottom: 120px;
 }
 
-.carrousel__cuisine {
+.carousel__cuisine {
     display: grid;
     grid-template-columns: 1fr;
 }
 
 @media (min-width: 520px) {
-    .carrousel__cuisine {
+    .carousel__cuisine {
         grid-template-columns: 1fr 1fr;
         gap: 17px;
     }
 }
 
 @media (min-width: 740px) {
-    .carrousel__cuisine {
+    .carousel__cuisine {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .carrousel__categories-title {
+    .carousel__categories-title {
         font-size: 50px;
     }
 
-    .carrousel__categories-vegeterian,
-    .carrousel__categories-sushi,
-    .carrousel__categories-pizza,
-    .carrousel__categories-bakery,
-    .carrousel__categories-fast-food {
+    .carousel__categories-vegeterian,
+    .carousel__categories-sushi,
+    .carousel__categories-pizza,
+    .carousel__categories-bakery,
+    .carousel__categories-fast-food {
         padding: 23px;
         width: 100px;
         height: 100px;
@@ -281,7 +281,7 @@ li:before {
 }
 
 @media (min-width: 960px) {
-    .carrousel__cuisine {
+    .carousel__cuisine {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
@@ -404,7 +404,7 @@ li:before {
 }
 
 .delivery__benefits-item {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -457,8 +457,8 @@ li:before {
 }
 
 .delivery {
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 65px;
+    margin-bottom: 50px;
 }
 
 /* 8 блок Тарас Харандзюк[2/2]*/
