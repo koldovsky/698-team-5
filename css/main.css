@@ -418,8 +418,10 @@ li:before {
 .benefits__item-check,
 .benefits__item-location,
 .benefits__item-alltime {
-    background-color: var(--around-color);
-    border-radius: 50%;
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
     padding: 15px;
     display: block;
     width: 70px;
