@@ -15,6 +15,16 @@
     cursor: pointer;
     margin-left: 50px;
 }
+//*.burger {
+  width: 30px;
+  height: 20px;
+  padding: 12px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  z-index: 5;
+}*//
 .header__nav-menu {
   display: none;
 }
@@ -45,9 +55,7 @@
     justify-content:center;
   }
   
-  .link-facebook,
-  .link-instagram,
-  .link-youtub {
-    width: 22px;
-    height: 22px;
+  .social__link-icons{
+    width: 120px;
+    height: 120px;
   }
