@@ -384,6 +384,8 @@ li:before {
     text-align: center;
     color: var(--coment-color);
     line-height: 1.5;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .benefits__item-comment {
