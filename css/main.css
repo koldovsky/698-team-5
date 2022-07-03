@@ -125,6 +125,7 @@ li:before {
 }
 
 .button-menu:hover {
+    color: var(--around-color);
     background-color: var(--price-color);
     transition: 0.5s;
 }

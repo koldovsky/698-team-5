@@ -1,4 +1,6 @@
-
+.container {
+  display: block;
+}
 
 .header {
   display: flex;
@@ -27,7 +29,6 @@
     align-items: center;
     justify-content: space-around;
     flex: 1;
-
 }
 }
 .header__nav-logo {
@@ -124,3 +125,4 @@ text-decoration: underline;
     width: 120px;
     height: 120px;
   }
+  
