@@ -104,6 +104,7 @@ li:before {
     width: 25px;
     margin-bottom: 8px;
 }
+
 .text__mobile-app {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -317,6 +318,20 @@ li:before {
     background-color: var(--title-color);
 }
 
+.tabs__items {
+    display: flex;
+    flex: 0, 1, 33.333%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: var(--coment-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
 .price__title-partners,
 .tab__saladbar,
 .tab__pizza-italo,
@@ -344,6 +359,7 @@ li:before {
     font-family: 'Barlow', sans-serif;
     font-size: 22px;
     font-weight: bold;
+    text-align: right;
     color: var(--price-color);
 }
 
@@ -354,6 +370,23 @@ li:before {
     font-size: 17px;
     text-align: left;
     color: var(--coment-color);
+}
+
+.salad__tab,
+.pizza__tab,
+.burger__tab {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+
+    .salad__tab,
+    .pizza__tab,
+    .burger__tab {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 /* 7 блок Oleksandr Silaiev[2/2]*/
@@ -500,6 +533,7 @@ li:before {
     display: flex;
     justify-content: center;
 }
+
 @media (min-width: 764px) {
     #reviews-dot4 {
         display: none;
@@ -514,14 +548,17 @@ li:before {
     border-radius: 50%;
     margin: 10px;
 }
+
 .reviews-dot:hover {
     background-color: var(--carrousel__reviews-dots-background-color-hover);
 }
+
 .reviews-dot:focus {
     background-color: var(--carrousel__reviews-dots-background-color-focus);
 }
+
 .reviews-dot-active {
-    background-color: var(--carrousel__reviews-dots-background-color-focus);  
+    background-color: var(--carrousel__reviews-dots-background-color-focus);
 }
 
 .carrousel__reviews-body {
@@ -531,6 +568,7 @@ li:before {
     margin: 30px;
     height: 550px;
 }
+
 @media (min-width: 764px) {
     .carrousel__reviews-body {
         grid-template-columns: 1fr 1fr;
@@ -585,6 +623,7 @@ li:before {
     padding-right: 0px;
     font-size: 18px;
 }
+
 @media (min-width: 764px) {
     .carrousel_reviews-content-comment {
         padding: 30px;
