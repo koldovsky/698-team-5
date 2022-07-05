@@ -289,6 +289,35 @@ li:before {
 }
 
 /* 5 блок MarianaVentsel[1/1]*/
+.manual__phone-app, 
+.stepthree {
+    width: 90%;
+    height: 75%;
+    background-image: url(../img/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 43%, 55%;
+}
+
+.steptwo {
+    width: 90%;
+    height: 75%;
+    background-image: url(../img/background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  -43%, -55%;
+}
+
+.app__store {
+    width: 120px;
+    border: none;
+}
+
+.google__play {
+    width: 135px;
+    border: none;
+}
+
 .manual__works {
     font-size: 38px;
     text-align: center;
@@ -304,6 +333,11 @@ li:before {
 }
 
 /* 6 блок RomanSmal[1/1]*/
+/* .wrapper{
+    width: 900px;
+    margin: auto;
+} */
+
 .price__title {
     font-size: 38px;
     text-align: center;
@@ -378,6 +412,14 @@ li:before {
     text-align: left;
     display: grid;
     grid-template-columns: 1fr;
+}
+
+@media (min-width: 520px) {
+    .salad__tab,
+    .pizza__tab,
+    .burger__tab {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (min-width: 768px) {
