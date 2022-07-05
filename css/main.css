@@ -333,11 +333,6 @@ li:before {
 }
 
 /* 6 блок RomanSmal[1/1]*/
-/* .wrapper{
-    width: 900px;
-    margin: auto;
-} */
-
 .price__title {
     font-size: 38px;
     text-align: center;
@@ -352,7 +347,15 @@ li:before {
     background-color: var(--title-color);
 }
 
-.tabs__items {
+.wrapper{
+    width: 500px;
+    margin: 50 px auto;
+}
+
+#tabs__items {
+
+
+
     display: flex;
     flex: 0, 1, 33.333%;
     height: 50px;
@@ -363,7 +366,6 @@ li:before {
     font-size: 19px;
     font-weight: bold;
     text-decoration: none;
-
 }
 
 .price__title-partners,
