@@ -289,7 +289,7 @@ li:before {
 }
 
 /* 5 блок MarianaVentsel[1/1]*/
-.manual__phone-app, 
+.manual__phone-app,
 .stepthree {
     width: 90%;
     height: 75%;
@@ -305,7 +305,7 @@ li:before {
     background-image: url(../img/background.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position:  -43%, -55%;
+    background-position: -43%, -55%;
 }
 
 .app__store {
@@ -347,16 +347,64 @@ li:before {
     background-color: var(--title-color);
 }
 
-.wrapper{
-    width: 500px;
-    margin: 50 px auto;
+.wrapper {
+    width: 600px;
+    margin: 50px auto;
 }
 
 #tabs__items {
+    width: 100% eline-;
+}
 
-
-
+#tabs__items ul {
+    list-style: none;
     display: flex;
+}
+
+#tabs__items ul li {
+    display: table-cell;
+    background: #f3f3f3;
+    height: 50px;
+    text-align: center;
+    border-left: 5px solid #fff;
+
+}
+
+#tabs__items ul li:first-child{
+    border-left: none;
+}
+
+/* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; */
+
+#tabs__items ul li a {
+    display: table-cell;
+    width: 600px;
+    height: 50px;
+    line-height: 30px;
+    color: var(--tab__color);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#tabs__items ul li a:hover {
+    color: var(--coment-color);
+}
+
+.price__tab-saladbar {
+    border: 10px solid #f3f3f3;
+}
+
+.separator__menu {
+    padding: 10px;
+}
+
+/* display: flex;
     flex: 0, 1, 33.333%;
     height: 50px;
     justify-content: center;
@@ -366,7 +414,7 @@ li:before {
     font-size: 19px;
     font-weight: bold;
     text-decoration: none;
-}
+ */
 
 .price__title-partners,
 .tab__saladbar,
@@ -417,6 +465,7 @@ li:before {
 }
 
 @media (min-width: 520px) {
+
     .salad__tab,
     .pizza__tab,
     .burger__tab {
