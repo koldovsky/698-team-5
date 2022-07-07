@@ -111,10 +111,10 @@ text-decoration: underline;
   .menu-link:hover {
     color: rgb(41, 138, 101);
   }
-  .clock {
+  /*.clock {
     color:rgb(41, 138, 101);
     font-weight: bold;
-  }
+  }*/
   .social-icons {
     display:flex;
     align-items: center;
@@ -122,7 +122,7 @@ text-decoration: underline;
   }
   
   .social__link-icons{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
   

@@ -150,6 +150,10 @@ li:before {
     height: 100%;
     object-fit: contain;
 }
+.clock {
+    color:rgb(41, 138, 101);
+    font-weight: bold;
+  }
 
 .content {
     margin-top: 90px;
