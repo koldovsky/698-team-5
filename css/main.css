@@ -180,6 +180,7 @@ li:before {
 /* 4 блок Oleksandr Silaiev[1/2] */
 .carousel__categories-title {
     font-size: 38px;
+    font-weight: bold;
     text-align: center;
     color: var(--title-color);
 }
@@ -203,6 +204,7 @@ li:before {
 .carousel__categories-choose-cuisine {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
+    font-weight: bold;
     text-align: center;
     color: var(--coment-color);
     margin: 0px 35px 70px 35px;
@@ -489,6 +491,7 @@ li:before {
 /* 7 блок Oleksandr Silaiev[2/2]*/
 .delivery__title {
     font-size: 38px;
+    font-weight: bold;
     text-align: center;
     color: var(--title-color);
 }
@@ -512,6 +515,7 @@ li:before {
 .delivery__comfort {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
+    font-weight: bold;
     text-align: center;
     color: var(--coment-color);
     line-height: 1.5;
