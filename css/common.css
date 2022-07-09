@@ -42,3 +42,8 @@ img {
     display: block;
     width: 100%;
   }
+  
+  .header {
+    --text-color: rgb(41, 138, 101);
+    --background-color: rgb(140, 140, 140);
+  }

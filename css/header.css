@@ -14,7 +14,7 @@
 @media(min-width:900px) {
   .container {
     display: grid;
-    grid-template-columns: 4fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr 1fr;
   }
 
   .header__nav-menu {
@@ -34,7 +34,7 @@
 
 .header__nav-menu a {
   text-decoration: none;
-  color: var(--coment-color);
+  color: var(--background-color);
 }
 
 .header__nav-menu a:hover {
@@ -51,7 +51,7 @@
 }
 
 .menu-link:hover {
-  color: rgb(41, 138, 101);
+  color: var(--text-color);
   font-size: 18px;
 }
 
@@ -76,7 +76,7 @@
   width: 110px;
 }
 
-.burger {
+/*.burger {
   width: 30px;
   height: 20px;
   padding: 12px;
@@ -104,7 +104,7 @@
 .burger span,
 .burger::before,
 .burger::after {
-  background-color: var(--coment-color);
+  background-color: var(--background-color);
   height: 2px;
   width: 100%;
   position: absolute;
@@ -124,4 +124,4 @@
 
 .burger::after {
   bottom: 0;
-}
+}*/
