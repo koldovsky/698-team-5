@@ -79,30 +79,19 @@
     function nextSlide() {
         slideIndex = slideIndex + 1 >= slides.length ? 0 : slideIndex + 1;
         showCurrentSlide();
-        dotActive(slideIndex);
     }
 
     function previousSlide() {
         slideIndex = slideIndex - 1 < 0 ? slides.length - 1 : slideIndex - 1;
         showCurrentSlide();
-        dotActive(slideIndex);
     }
 
-    function dotActive(slideIndex) {
-        for(let i = 0; i < dots.length; i++)
-        {
-            dots[i].classList.remove("reviews-dot-active");
-        }
-        dots[slideIndex].classList.add("reviews-dot-active");
-    }
+    //function showSlide(slideNum) {
+    //    slideIndex = slideNum;
+    //    showCurrentSlide();
+    //}
 
-    function showSlide(slideNum) {
-        slideIndex = slideNum;
-        showCurrentSlide();
-        dotActive(slideIndex);
-    }
-
-    const dots = document.querySelectorAll('.reviews-dot');
+    //const dots = document.querySelectorAll('.reviews-dots');
     const nextButton = document.querySelector('.carrousel__reviews > .carrousel__reviews-next-button');
     const previousButton = document.querySelector('.carrousel__reviews > .carrousel__reviews-previous-button');
 
@@ -110,12 +99,11 @@
     previousButton.addEventListener('click', previousSlide);
 
 
-    for (let i = 0; i < dots.length; i++) {
-        dots[i].addEventListener('click', () => showSlide(i));
-      } 
+    //for (let i = 0; i < dots.length; i++) {
+    //    dots.addEventListener('click', showSlide(i));
+    //  } 
 
     window.addEventListener('resize', showCurrentSlide);
 
     showCurrentSlide();
-    dotActive(slideIndex);
 })()

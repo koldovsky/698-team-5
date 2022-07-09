@@ -75,8 +75,6 @@
         showSlides();
     }
 
-    showSlides();
-
     const nextButton = document.querySelector('.carousel__categories-next-button');
     nextButton.addEventListener('click', nextSlidesFood);
     const prevButton = document.querySelector('.carousel__categories-prev-button');
@@ -84,13 +82,18 @@
 
     window.addEventListener('resize', showSlides);
 
-    function showDotSlide(slideNum) {
+    showSlides();
+
+    /*function showDotSlides(slideNum) {
         slideFoodIndex = slideNum;
-        showSlides();
-    }
-    const dots = document.querySelectorAll('.navigation__categories-dot');
+        showSlides()
+    };
+
+    const dots = document.querySelector('.navigation__categories');
     for (let i = 0; i < dots.length; i++) {
-        dots[i].addEventListener('click', () => showDotSlide(i));
-    }
+    dots[i].addEventListener('click', () => showDotSlides(i))     
+    };
+
+    showDotSlides();*/
 
 })();

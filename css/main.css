@@ -9,7 +9,6 @@
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
-    margin: 0;
 }
 
 .banner__fluid-title {
@@ -126,7 +125,6 @@ li:before {
 }
 
 .button-menu:hover {
-    color: var(--around-color);
     background-color: var(--price-color);
     transition: 0.5s;
 }
@@ -150,10 +148,6 @@ li:before {
     height: 100%;
     object-fit: contain;
 }
-.clock {
-    color:rgb(41, 138, 101);
-    font-weight: bold;
-  }
 
 .content {
     margin-top: 90px;
@@ -180,7 +174,6 @@ li:before {
 /* 4 блок Oleksandr Silaiev[1/2] */
 .carousel__categories-title {
     font-size: 38px;
-    font-weight: bold;
     text-align: center;
     color: var(--title-color);
 }
@@ -204,7 +197,6 @@ li:before {
 .carousel__categories-choose-cuisine {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
-    font-weight: bold;
     text-align: center;
     color: var(--coment-color);
     margin: 0px 35px 70px 35px;
@@ -295,35 +287,6 @@ li:before {
 }
 
 /* 5 блок MarianaVentsel[1/1]*/
-.manual__phone-app,
-.stepthree {
-    width: 90%;
-    height: 75%;
-    background-image: url(../img/background.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 43%, 55%;
-}
-
-.steptwo {
-    width: 90%;
-    height: 75%;
-    background-image: url(../img/background.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: -43%, -55%;
-}
-
-.app__store {
-    width: 120px;
-    border: none;
-}
-
-.google__play {
-    width: 135px;
-    border: none;
-}
-
 .manual__works {
     font-size: 38px;
     text-align: center;
@@ -353,75 +316,6 @@ li:before {
     background-color: var(--title-color);
 }
 
-.wrapper {
-    width: 600px;
-    margin: 50px auto;
-}
-
-#tabs__items {
-    width: 100% eline-;
-}
-
-#tabs__items ul {
-    list-style: none;
-    display: flex;
-}
-
-#tabs__items ul li {
-    display: table-cell;
-    background: #f3f3f3;
-    height: 50px;
-    text-align: center;
-    border-left: 5px solid #fff;
-
-}
-
-#tabs__items ul li:first-child{
-    border-left: none;
-}
-
-/* display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column; */
-
-#tabs__items ul li a {
-    display: table-cell;
-    width: 600px;
-    height: 50px;
-    line-height: 30px;
-    color: var(--tab__color);
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-}
-
-#tabs__items ul li a:hover {
-    color: var(--coment-color);
-}
-
-.price__tab-saladbar {
-    border: 10px solid #f3f3f3;
-}
-
-.separator__menu {
-    padding: 10px;
-}
-
-/* display: flex;
-    flex: 0, 1, 33.333%;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    color: var(--coment-color);
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-    text-decoration: none;
- */
-
 .price__title-partners,
 .tab__saladbar,
 .tab__pizza-italo,
@@ -449,7 +343,6 @@ li:before {
     font-family: 'Barlow', sans-serif;
     font-size: 22px;
     font-weight: bold;
-    text-align: right;
     color: var(--price-color);
 }
 
@@ -462,36 +355,9 @@ li:before {
     color: var(--coment-color);
 }
 
-.salad__tab,
-.pizza__tab,
-.burger__tab {
-    text-align: left;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-@media (min-width: 520px) {
-
-    .salad__tab,
-    .pizza__tab,
-    .burger__tab {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media (min-width: 768px) {
-
-    .salad__tab,
-    .pizza__tab,
-    .burger__tab {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
 /* 7 блок Oleksandr Silaiev[2/2]*/
 .delivery__title {
     font-size: 38px;
-    font-weight: bold;
     text-align: center;
     color: var(--title-color);
 }
@@ -515,12 +381,9 @@ li:before {
 .delivery__comfort {
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
-    font-weight: bold;
     text-align: center;
     color: var(--coment-color);
     line-height: 1.5;
-    margin-left: 25px;
-    margin-right: 25px;
 }
 
 .benefits__item-comment {
@@ -555,10 +418,8 @@ li:before {
 .benefits__item-check,
 .benefits__item-location,
 .benefits__item-alltime {
-    background-image: url(../img/back.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
+    background-color: var(--around-color);
+    border-radius: 50%;
     padding: 15px;
     display: block;
     width: 70px;
@@ -632,34 +493,12 @@ li:before {
 
 .carrousel__reviews-dots {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    width: 80px;
 }
 
-@media (min-width: 764px) {
-    #reviews-dot4 {
-        display: none;
-    }
-}
-
-.reviews-dot {
-    width: 10px;
-    height: 10px;
-    background-color: var(--carrousel__reviews-dots-background-color);
-    border: none;
-    border-radius: 50%;
-    margin: 10px;
-}
-
-.reviews-dot:hover {
-    background-color: var(--carrousel__reviews-dots-background-color-hover);
-}
-
-.reviews-dot:focus {
-    background-color: var(--carrousel__reviews-dots-background-color-focus);
-}
-
-.reviews-dot-active {
-    background-color: var(--carrousel__reviews-dots-background-color-focus);
+.reviews-dots {
+    border-radius: 0px;
 }
 
 .carrousel__reviews-body {
@@ -667,9 +506,7 @@ li:before {
     grid-template-columns: 1fr;
     gap: 28px;
     margin: 30px;
-    height: 550px;
 }
-
 @media (min-width: 764px) {
     .carrousel__reviews-body {
         grid-template-columns: 1fr 1fr;
@@ -683,7 +520,6 @@ li:before {
     border-radius: 5px;
     padding: 50px 20px 50px 20px;
     display: grid;
-    margin: 0;
 }
 
 .carrousel__reviews-content-photo {
@@ -724,7 +560,6 @@ li:before {
     padding-right: 0px;
     font-size: 18px;
 }
-
 @media (min-width: 764px) {
     .carrousel_reviews-content-comment {
         padding: 30px;
@@ -753,13 +588,15 @@ li:before {
 }
 
 .green-line {
-    width: 50px;
-    height: 4px;
+    width: 3%;
+    height: 3px;
     background-color: rgb(41, 138, 101);
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
     align-self: center;
-    display: block;
-    margin: 20px auto 20px auto;
-
+    margin-top: -20px;
 
 }
 
