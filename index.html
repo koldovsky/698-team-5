@@ -16,32 +16,28 @@
 
     <!-- 1 блок - Olesia Holod[1/2] -->
     <header class="header">
-        <nav class="header-nav"></nav>
-        <div class="img-logo">
-            <a href="#">
-                <img width="98" src="img/logo.jpg" alt="logo-image">
-            </a>
-            <div class="burger-menu"><span></span>
+        <div class="container">
+            <div class="header__nav-logo">
+                <a href="#"><img width="98" src="img/logo.jpg" alt="logo-image"></a>
+            </div>
+            <!--<div class="header__nav-burger">
+                <span class="header__nav-burger-line"></span>
+            </div>-->
+            <div class="header__nav-menu">
+                <a href="#about-us" class="menu-link">About Us</a>
+                <a href="#categories" class="menu-link">Categories</a>
+                <a href="#best-deals" class="menu-link">Best deals</a>
+                <a href="#how-to-order" class="menu-link">How to Order</a>
+            </div>
+            <div class="social-icons-container">
+                <div class="social-icons">
+                    <a href="#" class="social__link-icons"><img src="img/social_icons.png" alt="icons" /></a>
+                </div>
             </div>
         </div>
-        <nav class="header__nav-menu">
-            <a class="menu-link" href="#about-as">About Us</a>
-            <a class="menu-link" href="#categories">Categories</a>
-            <a class="menu-link" href="#best-deals">Best deals</a>
-            <a class="menu-link" href="#how-to-order">How to Order</a>
-            <div class="clock"></div>
-        </nav>
-        <div class="social-icons-container">
-            <div class="social-icons">
-                <a href="" class="link-facebook">
-                    <img src="/img/facebook_icon.png" alt="facebook icon" /></a>
-                <a href="" class="link-instagram">
-                    <img src="img/instagram_icon.png" alt="instagram icon" /></a>
-                <a href="" class="link-youtub">
-                    <img src="img/youtub_icon.png" alt="youtub icon" /></a>
-            </div>
-        </div>
+        <div class="clock"></div>
     </header>
+
     <!-- 2 блок - Тарас Харандзюк[1/2] -->
     <main class="main">
         <section class="banner__fluid">
@@ -57,8 +53,7 @@
         </section>
 
         <!-- 3 блок - Olesia Holod[2/2] -->
-        <section class="content">
-            <!--<div class="wrapper"></div>-->
+        <section class="content" id="about-us">
             <div class="text__block">
                 <h2 class="order__food">Order Food From Any of 400+ Restaurants.</h2>
                 <div class="divider__component"></div>
@@ -86,13 +81,14 @@
                 <div class="background-wrapper">
                     <div class="picture">
                         <img src="img/delivery_driver.png" alt="picture">
+                        <div class="clock"></div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- 4 блок - Oleksandr Silaiev[1/2] -->
-        <section class="carousel__categories">
+        <section class="carousel__categories" id="categories">
             <h2 class="carousel__categories-title">Popular Categories.</h2>
             <div class="carousel__title-separator"></div>
             <p class="carousel__categories-choose-cuisine">Choose any cuisine you like, and we'll deliver in no
@@ -105,16 +101,16 @@
                 </button>
             </div>
             <div class="navigation__categories">
-                <input type="radio" name="dot" id="dot1" checked>
-                <input type="radio" name="dot" id="dot2">
-                <input type="radio" name="dot" id="dot3">
-                <input type="radio" name="dot" id="dot4">
-                <input type="radio" name="dot" id="dot5">
+                <button class="navigation__categories-dot"></button>
+                <button class="navigation__categories-dot"></button>
+                <button class="navigation__categories-dot"></button>
+                <button class="navigation__categories-dot"></button>
+                <button class="navigation__categories-dot"></button>
             </div>
         </section>
 
         <!-- 5 блок - MarianaVentsel[1/1] -->
-        <section class="manual">
+        <section class="manual" id="how-to-order">
             <h2 class="manual__works">Here`s How It Works.</h2>
             <div class="manual__works-separator"></div>
             <p class="manual__works-FoodOrder">With FoodOrder, it's very easy to order your any food you like.
@@ -128,9 +124,9 @@
                 <p class="stepone">FoodOrder has applications for both iOS and Android. You can download them in
                     just a
                     few seconds from Google Play or the App Store.</p>
-                <button>
+                <button class="app__store">
                     <img width="100" src="img/app_store.png" alt="button app store"> </button>
-                <button>
+                <button class="google__play">
                     <img width="110" src="img/google_play.png" alt="button google play"> </button>
             </div>
             <div class="steptwo">
@@ -151,155 +147,143 @@
         </section>
 
         <!-- 6 блок - RomanSmal[1/1] -->
-        <section class="price">
+        <section class="price" id="best-deals">
             <h2 class="price__title">Best Deals From Selected Restaurants.</h2>
             <div class="price__title-separator"></div>
             <p class="price__title-partners">Here are the best summer deals from our partners:</p>
-            <div class="price__tab-saladbar">
-                <h3 class="tab__saladbar">SaladBar</h3>
-                <div class="salad">
-                    <h3 class="salad__title">Turkey & Zucchini</h3>
-                    <p class="salad__ingredients">Green peppers, zucchini, spinach, pears, grana padano cheese,
-                        tomatoes,
-                        cucumbers, olives, sliced turkey breast.</p>
-                    <p class="salad__price">$25</p>
+            <div class="wrapper">
+                <div id="tabs__items">
+                    <ul id="tabs__items">
+                        <li class="active"><a href="#tab_01">SaladBar</a></li>
+                        <li><a href="#tab_02">Pizza Italo</a></li>
+                        <li><a href="#tab_03">Burger City</a></li>
+                    </ul>
                 </div>
-                <div class="salad">
-                    <h3 class="salad__title">Arugula Salad</h3>
-                    <p class="salad__ingredients">Arugula, raddichio, beets, cherry tomatoes, onions, balsamic
-                        vinegar,
-                        and
-                        grated Romano cheese.</p>
-                    <p class="salad__price">$35</p>
-                </div>
-                <div class="salad">
-                    <h3 class="salad__title">Crab Salad</h3>
-                    <p class="salad__ingredients">Fresh Maryland jumbo crab meat over mixed greens, avocado,
-                        asparagus,
-                        and
-                        roasted peppers.</p>
-                    <p class="salad__price">$35</p>
-                </div>
-                <div class="salad">
-                    <h3 class="salad__title">Antipasti Plate</h3>
-                    <p class="salad__ingredients">Roasted asparagus, smoked salmon, mushrooms, mixed olives,
-                        prosciutto,
-                        and
-                        gorgonzola cheese.</p>
-                    <p class="salad__price">$37</p>
-                </div>
-                <div class="salad">
-                    <h3 class="salad__title">Sicilian Choice</h3>
-                    <p class="salad__ingredients">Fritter made with roasted chicken, pear tomatoes, avocado
-                        salad, and
-                        truffle vinaigrette.</p>
-                    <p class="salad__price">$45</p>
-                </div>
-                <div class="salad">
-                    <h3 class="salad__title">Vegan Wrap</h3>
-                    <p class="salad__ingredients">Mixed bell peppers, sun dried tomato spread, cucumbers,
-                        spinach, and
-                        fresh
-                        mozzarella.</p>
-                    <p class="salad__price">$25</p>
-                </div>
-            </div>
-            <div class="price__tab-pizza-italo">
-                <h3 class="tab__pizza-italo">Pizza Italo</h3>
-                <div class="pizza">
-                    <h3 class="pizza__title">Mediterranean Pizza</h3>
-                    <p class="pizza__ingredients">Salami, pepperoni, mushrooms, onions, bell peppers, sausage,
-                        feta
-                        cheese,
-                        and Canadian bacon.</p>
-                    <p class="pizza__price">$25</p>
-                </div>
-                <div class="pizza">
-                    <h3 class="pizza__title">Hawaiian Pizza</h3>
-                    <p class="pizza__ingredients">BBQ chicken, pepper, tomatoes, pineapple, mushrooms, and
-                        onions
-                        (tomato
-                        sauce or ranch).</p>
-                    <p class="pizza__price">$20</p>
-                </div>
-                <div class="pizza">
-                    <h3 class="pizza__title">Portuguese Pizza</h3>
-                    <p class="pizza__ingredients">Bacon, eggs, heats of palm, onions, tomatoes, ham, peppers,
-                        oregano,
-                        spicy
-                        sauce.</p>
-                    <p class="pizza__price">$25</p>
-                </div>
-                <div class="pizza">
-                    <h3 class="pizza__title">Vegan Calzone</h3>
-                    <p class="pizza__ingredients">Whole milk mozzarella, ricotta cheese, fresh spinach,
-                        mushrooms,
-                        onions,
-                        bell peppers, sliced tomatoes, and ripe black olives.</p>
-                    <p class="pizza__price">$15</p>
-                </div>
-                <div class="pizza">
-                    <h3 class="pizza__title">Pepperoni Pizza</h3>
-                    <p class="pizza__ingredients">Crushed tomatoes, shredded mozzarella, hormone-free pepperoni,
-                        and
-                        shredded Parmesan cheese.</p>
-                    <p class="pizza__price">$25</p>
-                </div>
-                <div class="pizza">
-                    <h3 class="pizza__title">Italiano</h3>
-                    <p class="pizza__ingredients">Red sauce, sweet Italian sausage, red chilli flakes, creamy
-                        mozzarella,
-                        broccoli rabe, marinated cherry tomatoes, and pecorino Romano.</p>
-                    <p class="pizza__price">$35</p>
-                </div>
-            </div>
-            <div class="price__tab-burger-city">
-                <h3 class="tab__burger-city">Burger City</h3>
-                <div class="burger">
-                    <h3 class="burger__title">Double Western Burger</h3>
-                    <p class="burger__ingredients">Two charbroiled beef patties, two strips of bacon, two slices
-                        of
-                        melted
-                        American cheese, and BBQ Sauce.</p>
-                    <p class="burger__price">$9.50</p>
-                </div>
-                <div class="burger">
-                    <h3 class="burger__title">Guacamole Bacon Burger</h3>
-                    <p class="burger__ingredients">One charbroiled beef patty, guacamole, bacon, melted cheese,
-                        lettuce,
-                        tomato, red onions, and sour-sweet sauce.</p>
-                    <p class="burger__price">$10.20</p>
-                </div>
-                <div class="burger">
-                    <h3 class="burger__title">Crispy Chicken Burger</h3>
-                    <p class="burger__ingredients">A crispy chicken fillet, topped with bacon, Swiss cheese,
-                        lettuce,
-                        tomato, and ranch dressing.</p>
-                    <p class="burger__price">$7.50</p>
-                </div>
-                <div class="burger">
-                    <h3 class="burger__title">Classic Double Cheeseburger</h3>
-                    <p class="burger__ingredients">Double meat, double cheese, grilled onions, cucumber, lettuce
-                        &
-                        tomato on
-                        plain bun.</p>
-                    <p class="burger__price">$7.50</p>
-                </div>
-                <div class="burger">
-                    <h3 class="burger__title">Jalapeño Burger</h3>
-                    <p class="burger__ingredients">One charbroiled beef patty, cheese, jalapeño coins, and Santa
-                        Fe
-                        Sauce,
-                        served on a fresh baked bun.</p>
-                    <p class="burger__price">$12.50</p>
-                </div>
-                <div class="burger">
-                    <h3 class="burger__title">Chicken Pesto Combo</h3>
-                    <p class="burger__ingredients">One chicken fillet, pesto aioli, lettuce, tomato, onion, and
-                        Swiss
-                        cheese
-                        on a toasted bun. Served with fries.</p>
-                    <p class="burger__price">$13.50</p>
+                <div class="menu__content">
+                    <div id="tab_01" class="price__tab-saladbar">
+                        <!-- <h3 class="tab__saladbar">SaladBar</h3> -->
+                        <div class="salad__first-part">
+                            <div class="salad__tab">
+                                <h3 class="salad__title">Turkey & Zucchini</h3>
+                                <p class="salad__ingredients">Green peppers, zucchini, spinach, pears, grana padano
+                                    cheese,
+                                    tomatoes, cucumbers, olives, sliced turkey breast.</p>
+                                <p class="salad__price">$25</p>
+                            </div>
+                            <div class="salad__tab">
+                                <h3 class="salad__title">Arugula Salad</h3>
+                                <p class="salad__ingredients">Arugula, raddichio, beets, cherry tomatoes, onions,
+                                    balsamic
+                                    vinegar, and grated Romano cheese.</p>
+                                <p class="salad__price">$35</p>
+                            </div>
+                            <div class="salad__tab">
+                                <h3 class="salad__title">Crab Salad</h3>
+                                <p class="salad__ingredients">Fresh Maryland jumbo crab meat over mixed greens, avocado,
+                                    asparagus, and roasted peppers.</p>
+                                <p class="salad__price">$35</p>
+                            </div>
+                        </div>
+                        <div class="separator__menu"></div>
+                        <div class="salad__two-part">
+                            <div class="salad__tab">
+                                <h3 class="salad__title">Antipasti Plate</h3>
+                                <p class="salad__ingredients">Roasted asparagus, smoked salmon, mushrooms, mixed olives,
+                                    prosciutto, and gorgonzola cheese.</p>
+                                <p class="salad__price">$37</p>
+                            </div>
+                            <div class="salad__tab">
+                                <h3 class="salad__title">Sicilian Choice</h3>
+                                <p class="salad__ingredients">Fritter made with roasted chicken, pear tomatoes, avocado
+                                    salad, and truffle vinaigrette.</p>
+                                <p class="salad__price">$45</p>
+                            </div>
+                            <div class="salad__tab">
+                                <h3 class="salad__title">Vegan Wrap</h3>
+                                <p class="salad__ingredients">Mixed bell peppers, sun dried tomato spread, cucumbers,
+                                    spinach, and fresh mozzarella.</p>
+                                <p class="salad__price">$25</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab_02" class="price__tab-pizza-italo">
+                        <!-- <h3 class="tab__pizza-italo">Pizza Italo</h3> -->
+                        <div class="pizza__tab">
+                            <h3 class="pizza__title">Mediterranean Pizza</h3>
+                            <p class="pizza__ingredients">Salami, pepperoni, mushrooms, onions, bell peppers, sausage,
+                                feta cheese, and Canadian bacon.</p>
+                            <p class="pizza__price">$25</p>
+                        </div>
+                        <div class="pizza__tab">
+                            <h3 class="pizza__title">Hawaiian Pizza</h3>
+                            <p class="pizza__ingredients">BBQ chicken, pepper, tomatoes, pineapple, mushrooms, and
+                                onions (tomato sauce or ranch).</p>
+                            <p class="pizza__price">$20</p>
+                        </div>
+                        <div class="pizza__tab">
+                            <h3 class="pizza__title">Portuguese Pizza</h3>
+                            <p class="pizza__ingredients">Bacon, eggs, heats of palm, onions, tomatoes, ham, peppers,
+                                oregano, spicy sauce.</p>
+                            <p class="pizza__price">$25</p>
+                        </div>
+                        <div class="pizza__tab">
+                            <h3 class="pizza__title">Vegan Calzone</h3>
+                            <p class="pizza__ingredients">Whole milk mozzarella, ricotta cheese, fresh spinach,
+                                mushrooms, onions, bell peppers, sliced tomatoes, and ripe black olives.</p>
+                            <p class="pizza__price">$15</p>
+                        </div>
+                        <div class="pizza__tab">
+                            <h3 class="pizza__title">Pepperoni Pizza</h3>
+                            <p class="pizza__ingredients">Crushed tomatoes, shredded mozzarella, hormone-free pepperoni,
+                                and shredded Parmesan cheese.</p>
+                            <p class="pizza__price">$25</p>
+                        </div>
+                        <div class="pizza__tab">
+                            <h3 class="pizza__title">Italiano</h3>
+                            <p class="pizza__ingredients">Red sauce, sweet Italian sausage, red chilli flakes, creamy
+                                mozzarella, broccoli rabe, marinated cherry tomatoes, and pecorino Romano.</p>
+                            <p class="pizza__price">$35</p>
+                        </div>
+                    </div>
+                    <div id="tab_03" class="price__tab-burger-city">
+                        <!-- <h3 class="tab__burger-city">Burger City</h3> -->
+                        <div class="burger__tab">
+                            <h3 class="burger__title">Double Western Burger</h3>
+                            <p class="burger__ingredients">Two charbroiled beef patties, two strips of bacon, two slices
+                                of melted American cheese, and BBQ Sauce.</p>
+                            <p class="burger__price">$9.50</p>
+                        </div>
+                        <div class="burger__tab">
+                            <h3 class="burger__title">Guacamole Bacon Burger</h3>
+                            <p class="burger__ingredients">One charbroiled beef patty, guacamole, bacon, melted cheese,
+                                lettuce, tomato, red onions, and sour-sweet sauce.</p>
+                            <p class="burger__price">$10.20</p>
+                        </div>
+                        <div class="burger__tab">
+                            <h3 class="burger__title">Crispy Chicken Burger</h3>
+                            <p class="burger__ingredients">A crispy chicken fillet, topped with bacon, Swiss cheese,
+                                lettuce, tomato, and ranch dressing.</p>
+                            <p class="burger__price">$7.50</p>
+                        </div>
+                        <div class="burger__tab">
+                            <h3 class="burger__title">Classic Double Cheeseburger</h3>
+                            <p class="burger__ingredients">Double meat, double cheese, grilled onions, cucumber, lettuce
+                                & tomato on plain bun.</p>
+                            <p class="burger__price">$7.50</p>
+                        </div>
+                        <div class="burger__tab">
+                            <h3 class="burger__title">Jalapeño Burger</h3>
+                            <p class="burger__ingredients">One charbroiled beef patty, cheese, jalapeño coins, and Santa
+                                Fe Sauce, served on a fresh baked bun.</p>
+                            <p class="burger__price">$12.50</p>
+                        </div>
+                        <div class="burger__tab">
+                            <h3 class="burger__title">Chicken Pesto Combo</h3>
+                            <p class="burger__ingredients">One chicken fillet, pesto aioli, lettuce, tomato, onion, and
+                                Swiss cheese on a toasted bun. Served with fries.</p>
+                            <p class="burger__price">$13.50</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="offer__restaurants">
@@ -343,18 +327,19 @@
 
         <!-- 8 блок - Тарас Харандзюк[2/2] -->
         <section class="carrousel__reviews">
-            <div class="carrousel__reviews-body"></div> 
+            <div class="carrousel__reviews-body"></div>
 
-                <button class="carrousel__reviews-previous-button"> < </button>
-                <button class="carrousel__reviews-next-button"> > </button>
+            <button class="carrousel__reviews-previous-button">
+                < </button>
+                    <button class="carrousel__reviews-next-button"> > </button>
 
-            <div class="carrousel__reviews-dots">
-                    <input type="radio" name="reviews-dot" class="reviews-dots" id="reviews-dot1" checked>
-                    <input type="radio" name="reviews-dot" class="reviews-dots" id="reviews-dot2">
-                    <input type="radio" name="reviews-dot" class="reviews-dots" id="reviews-dot3">
-            </div>
+                    <div class="carrousel__reviews-dots">
+                        <button class="reviews-dot"></button>
+                        <button class="reviews-dot"></button>
+                        <button class="reviews-dot"></button>
+                        <button class="reviews-dot"></button>
+                    </div>
         </section>
-
         <!-- 9 блок - Roman Sosnovskyi[1/1] -->
         <section class="background_2xT">
             <!--<img src="img/baner.webp" alt="Fon" width="">-->
@@ -521,7 +506,54 @@
         </section>
     </main>
     <!-- 12 блок - Oksana Smut[2/2] -->
-
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__description">
+                <a href="index.html">
+                    <img src="img/logo.jpg" alt="logo" class="nav__logo-img" />
+                </a>
+                <p class="footer__description-text">Get your favorite dishes from the best New York restaurants
+                    delivered to you place. We'll deliver your order in 30 minutes or you'll get it for free. Try
+                    FoodOrder now! </p>
+                <button class="app__store">
+                    <img width="110" src="img/app_store.png" alt="button app store"> </button>
+                <button class="google__play">
+                    <img width="110" src="img/google_play.png" alt="button google play"> </button>
+            </div>
+        </div>
+        <div class="footer__site-map">
+            <h3 class="footer__title">Site map</h3>
+            <ul class="site__map-list">
+                <li class="map__list-item"><a href="about-us" class="map__link">About us</a></li>
+                <li class="map__list-item"><a href="categories" class="map__link">Categories</a></li>
+                <li class="map__list-item"><a href="best-deals" class="map__link">Best Deals</a>
+                <li class="map__list-item"><a href="work-with-us" class="map__link">Work With Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="list">
+                <li class="list__item"><a href="how-to-order">How to Order</a></li>
+                <li class="list__item"><a href="24/7-deliveri">24/7 Delivery</a></li>
+                <li class="list__item"><a href="testimonials">Testimonials</a></li>
+                <li class="list__item"><a href="contacts">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="footer__questions">
+            <h3 class="footer__title title">Questions?</h3>
+            <ul class="questions__list">
+                <li class="questions__list-item"><a href="faq">FAQ</a></li>
+                <li class="questions__list-item"><a href="terms-of-use">Terms of use</a></li>
+                <li class="questions__list-item"><a href="accessibility">Accessibility</a></li>
+            </ul>
+        </div>
+        <div class="footer__text">
+            <div class="footer__copyright container">
+                <span>© Created by</span>
+                <span>All rights Reserved</span>
+            </div>
+        </div>
+    </footer>
+    </div>
 
     <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

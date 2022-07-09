@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-    margin: 0px;
     padding: 0px;
     max-width: 1750px;
+    margin: auto;
 }
 
 .main {
@@ -24,16 +24,26 @@
     --carrousel_reviews-content-comment-color:#6f7490;
     --carrousel-reviews-content-date-color: #3DC491;
     --carrousel__reviews-buttons-color: grey;
+    --carrousel__reviews-dots-background-color: rgb(204, 202, 202);
+    --carrousel__reviews-dots-background-color-hover: black;
+    --carrousel__reviews-dots-background-color-focus: grey;
     /* Silaiev */
     --title-color: rgb(41, 138, 101);
     --name-color: rgb(61, 196, 145);
     --coment-color: rgb(111, 116, 144);
     --around-color: white;
+    --color-dots: greenyellow;
     /* Smal */
     --price-color: rgb(255, 119, 94);
+    --tab__color:  #a3a5af;
 }
 
 img {
     display: block;
     width: 100%;
+  }
+  
+  .header {
+    --text-color: rgb(41, 138, 101);
+    --background-color: rgb(140, 140, 140);
   }
