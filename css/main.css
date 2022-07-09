@@ -802,25 +802,70 @@ li:before {
     font-weight: 700;
 }
 
+.address a:hover {
+    color: #6f7490;
+}
+
 address a.phone {
     margin-top: 35px;
     margin-bottom: 20px;
     font-size: 25px;
     font-weight: 800px;
-    color: #f14952;
+    color: rgb(255, 119, 94);
 }
-
-.support_info img {
-    width: 70%;
-    height: auto;
+address a.phone:hover {
+    color: rgb(255, 119, 94);
+}
+.support_info_img_container {
+    padding: 40px;
+    background: url(/img/background_for_girl.webp) center center / contain no-repeat;
 }
 
 @media (min-width:640px) {
     .support_info {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 5px;
-        margin: 30px 200px 30px 200px;
+        gap: 50px;
+        margin: 30px 200px 0 200px;
         justify-items: center;
+        padding-bottom: 100px;
+        grid-auto-rows: 1fr;
     }
+}
+
+.contacts_actions {
+    margin-top: 40px;
+}
+.add_new_partner_button {
+    display: flex ;
+    border-radius: 5px;
+    height: 54px;
+    width: 242px;
+    border: 0;
+    transition: background-color 0.5s ease;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #fff;
+    -webkit-box-shadow: 0 0 0 0 transparent;
+    box-shadow: 0 0 0 0 transparent;
+    background-color: #3dc491;
+    background-image: -webkit-gradient(linear,left bottom,left top,from(transparent),to(transparent));
+    background-image: -webkit-linear-gradient(bottom,transparent,transparent);
+    background-image: linear-gradient(0deg,transparent,transparent);
+}
+.add_new_partner_button:hover, 
+.add_new_partner_button:active {
+ background-color: rgb(255, 119, 94);
+}
+.add_new_partner_button_content {
+    display: flex ;
+    flex-direction: row;
+    align-items: baseline;
+}
+.add_new_partner_button_icon {
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
 }
