@@ -150,10 +150,11 @@ li:before {
     height: 100%;
     object-fit: contain;
 }
+
 .clock {
-    color:rgb(41, 138, 101);
+    color: rgb(41, 138, 101);
     font-weight: bold;
-  }
+}
 
 .content {
     margin-top: 90px;
@@ -297,8 +298,12 @@ li:before {
 /* 5 блок MarianaVentsel[1/1]*/
 #how-to-order {
     display: flex;
+    max-width: 1280px;
+    margin: auto;
     justify-content: center;
     flex-direction: column;
+    margin-left: 30px;
+    min-width: 270px;
 }
 
 .manual__works-FoodOrder {
@@ -310,19 +315,21 @@ li:before {
     margin-bottom: 50px;
 }
 
-
-
 .stepone__heading,
 .steptwo__heading,
 .stepthree__heading {
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     color: var(--name-color);
     margin-bottom: 50px;
 }
 
+/* .stepone {
+    width: 90%;
+    height: 75%;
+} */
 
 .manual__phone-app,
 .stepthree {
@@ -334,13 +341,13 @@ li:before {
     background-position: 43%, 55%;
 }
 
-.steptwo {
+.steptwo__pic {
     width: 90%;
     height: 75%;
-    background-image: url(../img/background.png);
+    background-image: url(../img/background_two.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: -43%, -55%;
+    background-position: 55%, 43%;
 }
 
 .app__store {
@@ -368,7 +375,43 @@ li:before {
     background-color: rgb(41, 138, 101);
 }
 
+.separator__block {
+    margin-top: 40px;
+}
+
+@media (min-width: 320) {
+    .stepone,
+    .steptwo,
+    .stepthree {
+        position: relative;
+        padding-top: 90px;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    .first__manual-section,
+    .second__manual-section,
+    .third__manual-section {
+        display: grid;
+        position: relative;
+        width: 100%;
+        object-position: 50% 50%;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
 /* 6 блок RomanSmal[1/1]*/
+#best-deals {
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 .price__title {
     font-size: 38px;
     font-weight: bold;
@@ -407,7 +450,7 @@ li:before {
 
 }
 
-#tabs__items ul li:first-child{
+#tabs__items ul li:first-child {
     border-left: none;
 }
 
@@ -1013,9 +1056,11 @@ address a.phone {
     font-weight: 800px;
     color: rgb(255, 119, 94);
 }
+
 address a.phone:hover {
     color: rgb(255, 119, 94);
 }
+
 .support_info_img_container {
     padding: 40px;
     background: url(/img/background_for_girl.webp) center center / contain no-repeat;
@@ -1036,8 +1081,9 @@ address a.phone:hover {
 .contacts_actions {
     margin-top: 40px;
 }
+
 .add_new_partner_button {
-    display: flex ;
+    display: flex;
     border-radius: 5px;
     height: 54px;
     width: 242px;
@@ -1051,19 +1097,22 @@ address a.phone:hover {
     -webkit-box-shadow: 0 0 0 0 transparent;
     box-shadow: 0 0 0 0 transparent;
     background-color: #3dc491;
-    background-image: -webkit-gradient(linear,left bottom,left top,from(transparent),to(transparent));
-    background-image: -webkit-linear-gradient(bottom,transparent,transparent);
-    background-image: linear-gradient(0deg,transparent,transparent);
+    background-image: -webkit-gradient(linear, left bottom, left top, from(transparent), to(transparent));
+    background-image: -webkit-linear-gradient(bottom, transparent, transparent);
+    background-image: linear-gradient(0deg, transparent, transparent);
 }
-.add_new_partner_button:hover, 
+
+.add_new_partner_button:hover,
 .add_new_partner_button:active {
- background-color: rgb(255, 119, 94);
+    background-color: rgb(255, 119, 94);
 }
+
 .add_new_partner_button_content {
-    display: flex ;
+    display: flex;
     flex-direction: row;
     align-items: baseline;
 }
+
 .add_new_partner_button_icon {
     height: 24px;
     width: 24px;
