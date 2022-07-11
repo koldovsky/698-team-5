@@ -45,7 +45,7 @@
 .menu-link {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: bold;
   padding: 7px;
 }
@@ -76,7 +76,9 @@
   width: 110px;
 }
 
-/*.burger {
+
+/*@media (max-width: 990px)
+.burger {
   width: 30px;
   height: 20px;
   padding: 12px;
@@ -124,4 +126,4 @@
 
 .burger::after {
   bottom: 0;
-}*/
+}
