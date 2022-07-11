@@ -1,0 +1,123 @@
+.footer {
+    position: relative;
+    height: 100%;
+    background-color: var(--background-color);
+  }
+  .footer ul {
+    padding: 0;
+  }
+  .footer__container {
+    flex-direction: column;
+    padding: 60px 24px 60px 24px;
+  }
+  .footer__description {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+  .footer__title {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    color: rgb(61, 196, 145);
+    font-weight: 700;
+  }
+  .footer__description-text {
+    margin: 25px auto;
+    line-height: 1.5;
+    text-align:center;
+    color:rgb(111, 116, 144);
+}
+  .footer__site-map {
+    margin-top: 50px;
+  }
+  .footer__title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .site__map-list {
+    text-align: center;
+    padding: 0;
+  }
+  .map__list-item {
+    margin-top: 10px;
+  }
+  .map__link {
+    font-family: 'Barlow', sans-serif;
+    color:rgb(111, 116, 144);
+    font-size: 16px;
+    font-weight:500;
+    line-height: 1.9;
+  }
+  .map__link:hover {
+  color: rgb(255, 119, 94);
+  text-decoration: underline;
+  }
+  .list {
+    margin-top: 50px;
+  }
+  .list__item {
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .list__item-link {
+    font-family: 'Barlow', sans-serif;
+    color:rgb(111, 116, 144);
+    font-size: 16px;
+    font-weight:500;
+    line-height: 1.9;
+  }
+  .list__item-link:hover {
+    color: rgb(255, 119, 94);
+    text-decoration: underline;
+  }
+  .footer__questions {
+    margin-top: 50px;
+  }
+  .footer__title title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .questions__list {
+    text-align: center;
+    padding: 0;
+  }
+ .questions__list-item {
+    margin-top: 10px;
+ }
+ .quest__item-link {
+    font-family: 'Barlow', sans-serif;
+    color:rgb(111, 116, 144);
+    font-size: 16px;
+    font-weight:500;
+    line-height: 1.9;
+ }
+ .quest__item-link:hover {
+    color: rgb(255, 119, 94);
+    text-decoration: underline;
+  }
+  .footer__text {
+    padding: 15px;
+    color:rgb(111, 116, 144); ;
+  }
+  .footer__copyright {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .map__list-item
+  .list__item 
+  .questions__list-item {
+    list-style-type: none;
+  }
+  li:before {
+    content: none;
+}
+
