@@ -295,6 +295,35 @@ li:before {
 }
 
 /* 5 блок MarianaVentsel[1/1]*/
+#how-to-order {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.manual__works-FoodOrder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--coment-color);
+    margin-bottom: 50px;
+}
+
+
+
+.stepone__heading,
+.steptwo__heading,
+.stepthree__heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--name-color);
+    margin-bottom: 50px;
+}
+
+
 .manual__phone-app,
 .stepthree {
     width: 90%;
@@ -326,6 +355,7 @@ li:before {
 
 .manual__works {
     font-size: 38px;
+    font-weight: bold;
     text-align: center;
     color: rgb(41, 138, 101);
 }
@@ -341,6 +371,7 @@ li:before {
 /* 6 блок RomanSmal[1/1]*/
 .price__title {
     font-size: 38px;
+    font-weight: bold;
     text-align: center;
     color: var(--title-color);
 }
@@ -589,6 +620,10 @@ li:before {
     }
 }
 
+.offer__restaurants {
+    text-align: center;
+}
+
 @media (min-width: 920px) {
     .delivery__benefits {
         grid-template-columns: 1fr 1fr 1fr;
@@ -599,6 +634,8 @@ li:before {
     margin-top: 65px;
     margin-bottom: 50px;
 }
+
+
 
 /* 8 блок Тарас Харандзюк[2/2]*/
 .carrousel__reviews {
