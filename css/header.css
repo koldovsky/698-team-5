@@ -75,9 +75,7 @@
 .social__link-icons:hover {
   width: 110px;
 }
-
-
-/*@media (max-width: 990px)
+@media (max-width: 990px){
 .burger {
   width: 30px;
   height: 20px;
@@ -95,12 +93,12 @@
 
 .burger.active::before {
   top: 50%;
-  transform: rotate(-45deg);
+  transform: rotate(-40deg);
 }
 
 .burger.active::after {
   bottom: 40%;
-  transform: rotate(45deg);
+  transform: rotate(40deg);
 }
 
 .burger span,
@@ -126,4 +124,5 @@
 
 .burger::after {
   bottom: 0;
+}
 }
