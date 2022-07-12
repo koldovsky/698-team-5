@@ -25,11 +25,14 @@
 }
 
 .header__nav-logo {
+  top:0;
+  left: 0;
   display: flex;
-  width: 98px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:flex-start;
   cursor: pointer;
-  margin-left: 30px;
-  margin-top: 20px;
+  padding: 30px 50px;
 }
 
 .header__nav-menu a {
@@ -75,13 +78,14 @@
 .social__link-icons:hover {
   width: 110px;
 }
-@media (max-width: 990px){
+@media (max-width: 900px){
 .burger {
   width: 30px;
   height: 20px;
   padding: 12px;
+  margin-top: 10px;
   cursor: pointer;
-  display: flex;
+  display: block;
   position: relative;
   box-sizing: border-box;
   z-index: 5;
