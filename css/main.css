@@ -304,7 +304,7 @@ li:before {
     flex-direction: column;
     margin-left: auto;
     padding-left: 20px;
-    padding-right: 20px
+    padding-right: 20px;
     min-width: 270px;
 }
 
@@ -1027,13 +1027,11 @@ li:before {
     flex-direction: column;
     line-height: 28px;
 }
-
 .contacts_content {
     color: rgb(41, 138, 101);
     font-size: 50px;
     font-weight: 800;
 }
-
 .small_green_line_seft_side {
     width: 50px;
     height: 4px;
@@ -1041,25 +1039,21 @@ li:before {
     align-self: auto;
     margin-top: 20px;
 }
-
 .contacts_content_explanation {
     margin-top: 20px;
     font-size: 20px;
     color: #6f7490;
     font-weight: 700;
 }
-
 .address a {
     text-decoration: none;
     color: #6f7490;
     font-size: 18px;
     font-weight: 700;
 }
-
 .address a:hover {
     color: #6f7490;
 }
-
 address a.phone {
     margin-top: 35px;
     margin-bottom: 20px;
@@ -1076,7 +1070,6 @@ address a.phone:hover {
     padding: 40px;
     background: url(/img/background_for_girl.webp) center center / contain no-repeat;
 }
-
 @media (min-width:640px) {
     .support_info {
         display: grid;
@@ -1088,7 +1081,6 @@ address a.phone:hover {
         grid-auto-rows: 1fr;
     }
 }
-
 .contacts_actions {
     margin-top: 40px;
 }
@@ -1108,9 +1100,10 @@ address a.phone:hover {
     -webkit-box-shadow: 0 0 0 0 transparent;
     box-shadow: 0 0 0 0 transparent;
     background-color: #3dc491;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(transparent), to(transparent));
     background-image: -webkit-linear-gradient(bottom, transparent, transparent);
     background-image: linear-gradient(0deg, transparent, transparent);
+    background-image: -webkit-linear-gradient(bottom,transparent,transparent);
+    background-image: linear-gradient(0deg,transparent,transparent);
 }
 
 .add_new_partner_button:hover,
@@ -1128,4 +1121,88 @@ address a.phone:hover {
     height: 24px;
     width: 24px;
     margin-left: 10px;
+}
+.partner_popup_wrapper {
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+.partner_popup {
+    border-radius: 8px;
+    box-shadow: 0 5px 11.2px 2.8px rgba(136, 140, 133, 0.12);
+    background: #fff;
+    padding: 60px 50px;
+    width: 540px;
+    position: relative;
+}
+.popup_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.popup_header_title {
+    font-size: 36px;
+    line-height: 1.3;
+    font-family: Barlow,sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #303445;
+}
+.small_green_line_center {
+    width: 50px;
+    height: 4px;
+    background-color: rgb(41, 138, 101);
+    align-self: auto;
+    margin-top: 10px;
+}
+.popup_description {
+    font-size: 19px;
+    line-height: 1.6;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #6f7490;
+    text-transform: none;
+    margin-top: 10px;
+    text-align: center;
+}
+.popup_criss_cross {
+    position: absolute;
+    right: 10px;
+    top: 2px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+}
+.popup_content form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.partner_form_input {
+    margin-bottom: 25px;
+    padding: 13px 34px;
+    background-color: rgb(252, 246, 236);
+    color: rgb(75, 79, 105);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.without_fixed_width {
+    width: auto;
+}
+.with_margin_top {
+    margin-top: 30px;
+}
+.popup_footer {
+    margin-top: 25px;
 }
