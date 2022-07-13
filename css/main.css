@@ -302,7 +302,9 @@ li:before {
     margin: auto;
     justify-content: center;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px
     min-width: 270px;
 }
 
@@ -373,6 +375,15 @@ li:before {
     width: 4%;
     height: 3px;
     background-color: rgb(41, 138, 101);
+}
+
+.stepone__text-block,
+.steptwo__text-block,
+.stepthree__text-block {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: left;
+    color: var(--coment-color);
 }
 
 .separator__block {
