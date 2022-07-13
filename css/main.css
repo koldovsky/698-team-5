@@ -305,7 +305,7 @@ li:before {
     margin-left: auto;
     padding-left: 20px;
     padding-right: 20px;
-    min-width: 270px;
+    min-width: 270px;    
 }
 
 .manual__works-FoodOrder {
@@ -328,10 +328,10 @@ li:before {
     margin-bottom: 50px;
 }
 
-/* .stepone {
+.timer__text {
     width: 90%;
     height: 75%;
-} */
+}
 
 .manual__phone-app,
 .stepthree {
@@ -366,7 +366,7 @@ li:before {
     font-size: 38px;
     font-weight: bold;
     text-align: center;
-    color: rgb(41, 138, 101);
+    color: var(--title-color);
 }
 
 .manual__works-separator {
@@ -374,7 +374,7 @@ li:before {
     margin: 20px auto 20px auto;
     width: 4%;
     height: 3px;
-    background-color: rgb(41, 138, 101);
+    background-color: var(--title-color);
 }
 
 .stepone__text-block,
@@ -390,17 +390,34 @@ li:before {
     margin-top: 40px;
 }
 
+#countdown__dellivery{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer__item {
+    position: relative;
+    font-size: 48px;
+    color: var(--title-color);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+
 @media (min-width: 320) {
     .stepone,
     .steptwo,
     .stepthree {
         position: relative;
         padding-top: 90px;
-        
+
     }
 }
 
 @media (min-width: 768px) {
+
     .first__manual-section,
     .second__manual-section,
     .third__manual-section {
@@ -494,18 +511,6 @@ li:before {
 .separator__menu {
     padding: 10px;
 }
-
-/* display: flex;
-    flex: 0, 1, 33.333%;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
-    color: var(--coment-color);
-    font-family: 'Roboto', sans-serif;
-    font-size: 19px;
-    font-weight: bold;
-    text-decoration: none;
- */
 
 .price__title-partners,
 .tab__saladbar,
