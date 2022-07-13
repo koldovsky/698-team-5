@@ -305,14 +305,8 @@ li:before {
     margin-left: auto;
     padding-left: 20px;
     padding-right: 20px;
-<<<<<<< HEAD
     min-width: 270px;    
-=======
-    min-width: 270px;
->>>>>>> da98135f109c9e9774ea63223ea51f34c13d2f0c
 }
-
-
 
 .manual__works-FoodOrder {
     font-family: 'Roboto', sans-serif;
