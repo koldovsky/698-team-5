@@ -176,14 +176,19 @@
             <p class="price__title-partners">Here are the best summer deals from our partners:</p>
             <div class="wrapper">
                 <div id="tabs">
-                    <ul id="items">
+                    <div class="tabs__nav tabs-nav">
+                        <div class="tabs-nav__item is-active" data-tab-name="tab-1">SaladBar</div>
+                        <div class="tabs-nav__item" data-tab-name="tab-2">Pizza Italo</div>
+                        <div class="tabs-nav__item" data-tab-name="tab-3">Burger City</div>
+                    </div>
+                    <!-- <ul id="items">
                         <li class="active"><a href="#tab_01">SaladBar</a></li>
                         <li><a href="#tab_02">Pizza Italo</a></li>
                         <li><a href="#tab_03">Burger City</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
-                <div class="menu__content">
-                    <div id="tab_01" class="price__tab-saladbar">
+                <div class="tabs__content">
+                    <div class="tab is-active tab-1">
                         <!-- <h3 class="tab__saladbar">SaladBar</h3> -->
                         <div class="salad__first-part">
                             <div class="salad__tab">
@@ -229,7 +234,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="tab_02" class="price__tab-pizza-italo">
+                    <div class="tab tab-2">
                         <!-- <h3 class="tab__pizza-italo">Pizza Italo</h3> -->
                         <div class="pizza__tab">
                             <h3 class="pizza__title">Mediterranean Pizza</h3>
@@ -268,7 +273,7 @@
                             <p class="pizza__price">$35</p>
                         </div>
                     </div>
-                    <div id="tab_03" class="price__tab-burger-city">
+                    <div class="tab tab-3">
                         <!-- <h3 class="tab__burger-city">Burger City</h3> -->
                         <div class="burger__tab">
                             <h3 class="burger__title">Double Western Burger</h3>
@@ -352,7 +357,8 @@
         <section class="carrousel__reviews">
             <div class="carrousel__reviews-body"></div>
 
-            <button class="carrousel__reviews-previous-button"> < </button>
+            <button class="carrousel__reviews-previous-button">
+                < </button>
                     <button class="carrousel__reviews-next-button"> > </button>
 
                     <div class="carrousel__reviews-dots">
@@ -425,7 +431,8 @@
                         Where can I download your application ?
                     </h3>
                     <p class="answer">
-                        We have Android an OS version Of the FoodOrder app. You can download them in Google Play or App Store.
+                        We have Android an OS version Of the FoodOrder app. You can download them in Google Play or App
+                        Store.
                     </p>
                 </div>
                 <div class="question_answer">
@@ -433,7 +440,8 @@
                         How do i find the restorant I need on the list?
                     </h3>
                     <p class="answer">
-                        The aplication has a convenient Quick Cearch section that will help you find any restorant you need by its name or cuisine.
+                        The aplication has a convenient Quick Cearch section that will help you find any restorant you
+                        need by its name or cuisine.
                     </p>
                 </div>
                 <div class="question_answer">
@@ -441,7 +449,8 @@
                         What if I don't see the restorant I need on the list?
                     </h3>
                     <p class="answer">
-                        If the restaurant you want is not listed, pleace contact customer support. We will connect it to our system shortly.
+                        If the restaurant you want is not listed, pleace contact customer support. We will connect it to
+                        our system shortly.
                     </p>
                 </div>
                 <div class="question_answer">
@@ -449,7 +458,8 @@
                         What if your courier will not arrive on time?
                     </h3>
                     <p class="answer">
-                        If our courier hasn't delivered your order in 30 minutes, contact our support team. You will receive your order for free.
+                        If our courier hasn't delivered your order in 30 minutes, contact our support team. You will
+                        receive your order for free.
                     </p>
                 </div>
                 <div class="question_answer">
@@ -457,7 +467,8 @@
                         Do you have any special offers for your loyal clients?
                     </h3>
                     <p class="answer">
-                        Yes. We regularry run all kinds of promotions and offer free delivery for customers who make more than 5 orders per month.
+                        Yes. We regularry run all kinds of promotions and offer free delivery for customers who make
+                        more than 5 orders per month.
                     </p>
                 </div>
                 <div class="question_answer">
@@ -465,7 +476,8 @@
                         How can I pay for my oder? Can I pay online?
                     </h3>
                     <p class="answer">
-                        We offer different payment option. You can pay online in the app or by card when your order is submitted, or you can pay when the food is delivered.
+                        We offer different payment option. You can pay online in the app or by card when your order is
+                        submitted, or you can pay when the food is delivered.
                     </p>
                 </div>
             </div>
@@ -530,8 +542,8 @@
                     <div class="small_green_line_center"></div>
                     <p class="popup_description">
                         Want to join 400+ NY restaurants working with us? Fill out the form:
-                        </p>
-                        <div onclick="closePartnerPopup()" class="popup_criss_cross">x</div>
+                    </p>
+                    <div onclick="closePartnerPopup()" class="popup_criss_cross">x</div>
                 </div>
                 <div class="popup_content">
                     <form action="/partners">
@@ -540,13 +552,14 @@
                         <input type="text" name="email" class="partner_form_input" placeholder="Email" required>
                         <button class="add_new_partner_button without_fixed_width with_margin_top" type="submit">
                             <span class="add_new_partner_button_content">
-                                <span>Submit</span> 
+                                <span>Submit</span>
                             </span>
                         </button>
                     </form>
                 </div>
                 <div class="popup_footer">
-                    <p class="partner_popup_info">By submitting this form, you accept our <u>Terms</u> & <u>Privacy Policy</u>.</p>
+                    <p class="partner_popup_info">By submitting this form, you accept our <u>Terms</u> & <u>Privacy
+                            Policy</u>.</p>
                 </div>
             </div>
         </div>
