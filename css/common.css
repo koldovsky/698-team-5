@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-    padding: 0px;
-    max-width: 1750px;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+  max-width: 1750px;
+  margin: auto;
 }
 
 .main {
