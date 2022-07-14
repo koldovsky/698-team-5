@@ -508,7 +508,7 @@ li:before {
 .menu__content {
     padding: 10px;
     border: 10px solid #f3f3f3;
-    display: none;
+    /* display: none; */
 }
 
 .price__title-partners,
