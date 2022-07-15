@@ -1,5 +1,4 @@
 (function () {
-    let tab = function () {
         let tabNav = document.querySelectorAll('.tabs-nav__item'),
             tabContent = document.querySelectorAll('.tab'),
             tabName;
@@ -23,5 +22,4 @@
             })
         }
 
-    };
 })()
