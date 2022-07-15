@@ -305,7 +305,7 @@ li:before {
     margin-left: auto;
     padding-left: 20px;
     padding-right: 20px;
-    min-width: 270px;    
+    min-width: 270px;
 }
 
 .manual__works-FoodOrder {
@@ -329,8 +329,8 @@ li:before {
 }
 
 .timer__text {
-    width: 90%;
-    height: 75%;
+    display: flex;
+    justify-content: center;
 }
 
 .manual__phone-app,
@@ -390,7 +390,7 @@ li:before {
     margin-top: 40px;
 }
 
-#countdown__dellivery{
+#countdown__dellivery {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -407,6 +407,7 @@ li:before {
 
 
 @media (min-width: 320) {
+
     .stepone,
     .steptwo,
     .stepthree {
@@ -439,6 +440,9 @@ li:before {
     flex-direction: column;
 }
 
+.tabs__content p {
+    margin-bottom: 0;
+}
 
 .price__title {
     font-size: 38px;
@@ -457,7 +461,12 @@ li:before {
 
 .wrapper {
     max-width: 1280px;
-    margin: 50px auto;
+    margin: 0 auto;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
 }
 
 .tabs-nav {
@@ -465,74 +474,65 @@ li:before {
     justify-content: space-between;
 }
 
+.tabs__nav {
+    padding: 15px 20px;
+}
+
+.long__line {
+    height: 1px;
+    background-color: #2c2e38;
+}
+
 .tabs-nav__item {
     border-bottom: 1px solid transparent;
     cursor: pointer;
-    flex: 1;
     padding: 20px;
-}
-
-.tabs-nav__item.is-active {
-    border-color: #55a32a;
-}
-
-.tab {
-background-color: #f2f2f2;
-display: none;
-padding: 20px;
-}
-
-.tab.is-active {display: block;}
-
-#tabs {
-    width: 100%;
-}
-
-#tabs ul {
-    list-style: none;
-    display: table-row;
-}
-
-#tabs ul li {
-    display: table-cell;
-    background: #f3f3f3;
-    height: 50px;
-    text-align: center;
-    border-left: 5px solid #fff;
-}
-
-#tabs ul li:first-child {
-    border-left: none;
-}
-
-#tabs ul li a {
-    display: table-cell;
-    width: 600px;
-    height: 50px;
-    line-height: 60px;
     color: var(--tab__color);
-    text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
     font-weight: bold;
 }
 
-#tabs ul li a:hover {
+.tabs-nav__item.is-active {
+    border-color: var(--coment-color);
     color: var(--coment-color);
 }
 
-/* .price__tab-saladbar {
-    border: 10px solid #f3f3f3;
-} */
-
-.separator__menu {
-    padding: 10px;
+.tabs-nav__item:hover {
+    color: var(--coment-color);
 }
 
-.tabs__content {
-    padding: 10px;
-    border: 10px solid #f3f3f3;
-    /* display: none; */
+
+.tab {
+    display: none;
+    padding: 20px;
+}
+
+.salad__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.tab.is-active {
+    display: flex;
+    column-gap: 20px;
+}
+
+.separator__menu {
+    display: none;
+}
+.salad__tab {
+    margin-bottom: 20px;
+}
+
+.line {
+    height: 1px;
+    min-width: 10px;
+    flex: 1 1;
+    background: #2c2e38;
+    opacity: .2;
+    margin: 0 5px 0 5px;
 }
 
 .price__title-partners,
@@ -575,30 +575,17 @@ padding: 20px;
     color: var(--coment-color);
 }
 
-.salad__tab,
-.pizza__tab,
-.burger__tab {
-    text-align: left;
-    display: grid;
-    grid-template-columns: 1fr;
-}
 
-@media (min-width: 520px) {
-    .salad__tab,
-    .pizza__tab,
-    .burger__tab {
-    grid-template-columns: 1fr 1fr;
+@media (max-width: 768px) {
+    .tab.is-active {
+        display: block;
+    }
+    .separator__menu{
+        display: block;
+        height: 50px;
     }
 }
 
-@media (min-width: 768px) {
-
-    .salad__tab,
-    .pizza__tab,
-    .burger__tab {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
 
 /* 7 блок Oleksandr Silaiev[2/2]*/
 .delivery__title {
@@ -1054,11 +1041,13 @@ padding: 20px;
     flex-direction: column;
     line-height: 28px;
 }
+
 .contacts_content {
     color: rgb(41, 138, 101);
     font-size: 50px;
     font-weight: 800;
 }
+
 .small_green_line_seft_side {
     width: 50px;
     height: 4px;
@@ -1066,21 +1055,25 @@ padding: 20px;
     align-self: auto;
     margin-top: 20px;
 }
+
 .contacts_content_explanation {
     margin-top: 20px;
     font-size: 20px;
     color: #6f7490;
     font-weight: 700;
 }
+
 .address a {
     text-decoration: none;
     color: #6f7490;
     font-size: 18px;
     font-weight: 700;
 }
+
 .address a:hover {
     color: #6f7490;
 }
+
 address a.phone {
     margin-top: 35px;
     margin-bottom: 20px;
@@ -1097,6 +1090,7 @@ address a.phone:hover {
     padding: 40px;
     background: url(/img/background_for_girl.webp) center center / contain no-repeat;
 }
+
 @media (min-width:640px) {
     .support_info {
         display: grid;
@@ -1108,6 +1102,7 @@ address a.phone:hover {
         grid-auto-rows: 1fr;
     }
 }
+
 .contacts_actions {
     margin-top: 40px;
 }
@@ -1129,8 +1124,8 @@ address a.phone:hover {
     background-color: #3dc491;
     background-image: -webkit-linear-gradient(bottom, transparent, transparent);
     background-image: linear-gradient(0deg, transparent, transparent);
-    background-image: -webkit-linear-gradient(bottom,transparent,transparent);
-    background-image: linear-gradient(0deg,transparent,transparent);
+    background-image: -webkit-linear-gradient(bottom, transparent, transparent);
+    background-image: linear-gradient(0deg, transparent, transparent);
 }
 
 .add_new_partner_button:hover,
@@ -1149,6 +1144,7 @@ address a.phone:hover {
     width: 24px;
     margin-left: 10px;
 }
+
 .partner_popup_wrapper {
     background: rgba(0, 0, 0, 0.7);
     position: fixed;
@@ -1159,6 +1155,7 @@ address a.phone:hover {
     justify-content: center;
     top: 0;
 }
+
 .partner_popup {
     border-radius: 8px;
     box-shadow: 0 5px 11.2px 2.8px rgba(136, 140, 133, 0.12);
@@ -1167,21 +1164,24 @@ address a.phone:hover {
     width: 540px;
     position: relative;
 }
+
 .popup_header {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .popup_header_title {
     font-size: 36px;
     line-height: 1.3;
-    font-family: Barlow,sans-serif;
+    font-family: Barlow, sans-serif;
     font-weight: 700;
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
     color: #303445;
 }
+
 .small_green_line_center {
     width: 50px;
     height: 4px;
@@ -1189,10 +1189,11 @@ address a.phone:hover {
     align-self: auto;
     margin-top: 10px;
 }
+
 .popup_description {
     font-size: 19px;
     line-height: 1.6;
-    font-family: Roboto,sans-serif;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     text-decoration: none;
     font-style: normal;
@@ -1202,6 +1203,7 @@ address a.phone:hover {
     margin-top: 10px;
     text-align: center;
 }
+
 .popup_criss_cross {
     position: absolute;
     right: 10px;
@@ -1210,11 +1212,13 @@ address a.phone:hover {
     font-size: 25px;
     cursor: pointer;
 }
+
 .popup_content form {
     display: flex;
     flex-direction: column;
     align-items: stretch;
 }
+
 .partner_form_input {
     margin-bottom: 25px;
     padding: 13px 34px;
@@ -1224,12 +1228,15 @@ address a.phone:hover {
     outline: none;
     border-radius: 5px;
 }
+
 .without_fixed_width {
     width: auto;
 }
+
 .with_margin_top {
     margin-top: 30px;
 }
+
 .popup_footer {
     margin-top: 25px;
 }
