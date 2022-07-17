@@ -431,7 +431,7 @@ li:before {
 }
 
 
-/* 6 блок RomanSmal[1/1]*/
+/* 6 блок RomanSmal[1/1]//////////////////////////////////////////////////////// */
 .price {
     display: flex;
     max-width: 1280px;
@@ -509,6 +509,10 @@ li:before {
     padding: 20px;
 }
 
+.width__tab-content {
+    width: 100%;
+}
+
 .salad__block,
 .pizza__block,
 .burger__block {
@@ -578,6 +582,11 @@ li:before {
     color: var(--coment-color);
 }
 
+@media (max-width: 374px) {
+       .tabs-nav__item {
+        font-size: 14px;
+    }
+}
 
 @media (max-width: 767px) {
     .tab.is-active {
@@ -590,7 +599,7 @@ li:before {
     }
 }
 
-
+/* /////////////////////////////////////////////////////////////////////*/
 /* 7 блок Oleksandr Silaiev[2/2]*/
 .delivery__title {
     font-size: 38px;
