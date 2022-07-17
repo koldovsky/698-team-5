@@ -432,7 +432,7 @@ li:before {
 
 
 /* 6 блок RomanSmal[1/1]*/
-#best-deals {
+.price {
     display: flex;
     max-width: 1280px;
     margin: auto;
@@ -445,7 +445,7 @@ li:before {
 }
 
 .price__title {
-    font-size: 38px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
     color: var(--title-color);
@@ -472,6 +472,7 @@ li:before {
 .tabs-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .tabs__nav {
@@ -486,7 +487,7 @@ li:before {
 .tabs-nav__item {
     border-bottom: 1px solid transparent;
     cursor: pointer;
-    padding: 20px;
+    padding: 13px;
     color: var(--tab__color);
     font-family: 'Roboto', sans-serif;
     font-size: 19px;
@@ -518,12 +519,13 @@ li:before {
 
 .tab.is-active {
     display: flex;
-    column-gap: 50px;
+    column-gap: 40px;
 }
 
 .separator__menu {
     display: none;
 }
+
 .salad__tab,
 .pizza__tab,
 .burger__tab {
@@ -552,7 +554,7 @@ li:before {
 .pizza__title,
 .burger__title {
     font-family: 'Barlow', sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     text-align: left;
     color: var(--name-color);
 }
@@ -561,7 +563,7 @@ li:before {
 .pizza__price,
 .burger__price {
     font-family: 'Barlow', sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     text-align: right;
     color: var(--price-color);
@@ -577,11 +579,12 @@ li:before {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .tab.is-active {
         display: block;
     }
-    .separator__menu{
+
+    .separator__menu {
         display: block;
         height: 50px;
     }
